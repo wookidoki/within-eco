@@ -1,0 +1,2454 @@
+{
+  "category": "ecology",
+  "count": 102,
+  "spots": [
+    {
+      "id": "landscape.202",
+      "name": "경관보호지역",
+      "name_en": "",
+      "type": "경관보호지역",
+      "category": "ecology",
+      "location": {
+        "lat": 38.098939,
+        "lng": 127.159958
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 경관보호지역입니다.",
+      "source": "landscape",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "forest_genetic_resource_protection_area.31",
+      "name": "산림유전자원보호구역",
+      "name_en": "",
+      "type": "산림보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 38.237213,
+        "lng": 127.742646
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 산림보호구역입니다.",
+      "source": "forest_reserve",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27c3",
+      "name": "생태자연도 1등급 구역 1",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.431325,
+        "lng": 126.968623
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27c2",
+      "name": "생태자연도 1등급 구역 2",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.430142,
+        "lng": 126.966491
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27c1",
+      "name": "생태자연도 1등급 구역 3",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.430681,
+        "lng": 126.967149
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27c0",
+      "name": "생태자연도 1등급 구역 4",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.430878,
+        "lng": 126.967955
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27bf",
+      "name": "생태자연도 1등급 구역 5",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.429556,
+        "lng": 126.966556
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27be",
+      "name": "생태자연도 1등급 구역 6",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.264394,
+        "lng": 126.57881
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27bd",
+      "name": "생태자연도 1등급 구역 7",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.424291,
+        "lng": 126.969998
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27bc",
+      "name": "생태자연도 1등급 구역 8",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.146315,
+        "lng": 127.706195
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27bb",
+      "name": "생태자연도 1등급 구역 9",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.425929,
+        "lng": 126.935743
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27ba",
+      "name": "생태자연도 1등급 구역 10",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.356761,
+        "lng": 126.911681
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27b9",
+      "name": "생태자연도 1등급 구역 11",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.096649,
+        "lng": 127.037246
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27b8",
+      "name": "생태자연도 1등급 구역 12",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.426863,
+        "lng": 126.932204
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27b7",
+      "name": "생태자연도 1등급 구역 13",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.425901,
+        "lng": 126.973673
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27b6",
+      "name": "생태자연도 1등급 구역 14",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.426533,
+        "lng": 126.933911
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27b5",
+      "name": "생태자연도 1등급 구역 15",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.426643,
+        "lng": 126.934401
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27b4",
+      "name": "생태자연도 1등급 구역 16",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.457679,
+        "lng": 126.960281
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27b3",
+      "name": "생태자연도 1등급 구역 17",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.427847,
+        "lng": 126.969792
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27b2",
+      "name": "생태자연도 1등급 구역 18",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.09419,
+        "lng": 127.049184
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27b1",
+      "name": "생태자연도 1등급 구역 19",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.43087,
+        "lng": 126.970031
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27b0",
+      "name": "생태자연도 1등급 구역 20",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.432452,
+        "lng": 126.960361
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27af",
+      "name": "생태자연도 1등급 구역 21",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.455703,
+        "lng": 126.96453
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27ae",
+      "name": "생태자연도 1등급 구역 22",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.425221,
+        "lng": 126.935039
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27ad",
+      "name": "생태자연도 1등급 구역 23",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.147379,
+        "lng": 127.104801
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27ac",
+      "name": "생태자연도 1등급 구역 24",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.459092,
+        "lng": 126.961514
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27ab",
+      "name": "생태자연도 1등급 구역 25",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.508205,
+        "lng": 127.049442
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27aa",
+      "name": "생태자연도 1등급 구역 26",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.508909,
+        "lng": 127.045688
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27a9",
+      "name": "생태자연도 1등급 구역 27",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.508954,
+        "lng": 127.045274
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27a8",
+      "name": "생태자연도 1등급 구역 28",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.092805,
+        "lng": 126.998111
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27a7",
+      "name": "생태자연도 1등급 구역 29",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.411481,
+        "lng": 127.03375
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27a6",
+      "name": "생태자연도 1등급 구역 30",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.460225,
+        "lng": 126.97608
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27a5",
+      "name": "생태자연도 1등급 구역 31",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.357899,
+        "lng": 126.909596
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27a4",
+      "name": "생태자연도 1등급 구역 32",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 36.906106,
+        "lng": 126.961905
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27a3",
+      "name": "생태자연도 1등급 구역 33",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.402808,
+        "lng": 127.86379
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27a2",
+      "name": "생태자연도 1등급 구역 34",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.50869,
+        "lng": 127.047312
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27a1",
+      "name": "생태자연도 1등급 구역 35",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.509333,
+        "lng": 127.050629
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-27a0",
+      "name": "생태자연도 1등급 구역 36",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.453388,
+        "lng": 126.969649
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-279f",
+      "name": "생태자연도 1등급 구역 37",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 36.888835,
+        "lng": 126.997518
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-279e",
+      "name": "생태자연도 1등급 구역 38",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 36.889119,
+        "lng": 126.99733
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-279d",
+      "name": "생태자연도 1등급 구역 39",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 36.88788,
+        "lng": 126.996589
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-279c",
+      "name": "생태자연도 1등급 구역 40",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.263877,
+        "lng": 126.579477
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-279b",
+      "name": "생태자연도 1등급 구역 41",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.50744,
+        "lng": 127.048669
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-279a",
+      "name": "생태자연도 1등급 구역 42",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.527382,
+        "lng": 127.054995
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2799",
+      "name": "생태자연도 1등급 구역 43",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.243569,
+        "lng": 126.572401
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2798",
+      "name": "생태자연도 1등급 구역 44",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.636649,
+        "lng": 127.360324
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2797",
+      "name": "생태자연도 1등급 구역 45",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.457134,
+        "lng": 126.964374
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2796",
+      "name": "생태자연도 1등급 구역 46",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 36.886938,
+        "lng": 126.995686
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2795",
+      "name": "생태자연도 1등급 구역 47",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.425106,
+        "lng": 126.933857
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2794",
+      "name": "생태자연도 1등급 구역 48",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.876656,
+        "lng": 127.080481
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2793",
+      "name": "생태자연도 1등급 구역 49",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.426553,
+        "lng": 126.968207
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2792",
+      "name": "생태자연도 1등급 구역 50",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.346749,
+        "lng": 126.694511
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2791",
+      "name": "생태자연도 1등급 구역 51",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.037205,
+        "lng": 126.855688
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2790",
+      "name": "생태자연도 1등급 구역 52",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.195625,
+        "lng": 126.709789
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-278f",
+      "name": "생태자연도 1등급 구역 53",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.44138,
+        "lng": 126.860921
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-278e",
+      "name": "생태자연도 1등급 구역 54",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.234886,
+        "lng": 126.583422
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-278d",
+      "name": "생태자연도 1등급 구역 55",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.220934,
+        "lng": 126.637376
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-278c",
+      "name": "생태자연도 1등급 구역 56",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.425996,
+        "lng": 126.971143
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-278b",
+      "name": "생태자연도 1등급 구역 57",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.557277,
+        "lng": 126.781885
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-278a",
+      "name": "생태자연도 1등급 구역 58",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.866029,
+        "lng": 127.118427
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2789",
+      "name": "생태자연도 1등급 구역 59",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.221367,
+        "lng": 126.637401
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2788",
+      "name": "생태자연도 1등급 구역 60",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.359902,
+        "lng": 126.843345
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2787",
+      "name": "생태자연도 1등급 구역 61",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.508787,
+        "lng": 127.046617
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2786",
+      "name": "생태자연도 1등급 구역 62",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.508895,
+        "lng": 127.049513
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2785",
+      "name": "생태자연도 1등급 구역 63",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.346471,
+        "lng": 126.694258
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2784",
+      "name": "생태자연도 1등급 구역 64",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.430379,
+        "lng": 126.681512
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2783",
+      "name": "생태자연도 1등급 구역 65",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 36.879861,
+        "lng": 126.99583
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2782",
+      "name": "생태자연도 1등급 구역 66",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 36.881973,
+        "lng": 126.993271
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2781",
+      "name": "생태자연도 1등급 구역 67",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 36.884208,
+        "lng": 126.995292
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2780",
+      "name": "생태자연도 1등급 구역 68",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.509117,
+        "lng": 127.044988
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-277f",
+      "name": "생태자연도 1등급 구역 69",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.346472,
+        "lng": 126.694686
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-277e",
+      "name": "생태자연도 1등급 구역 70",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.432003,
+        "lng": 126.959981
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-277d",
+      "name": "생태자연도 1등급 구역 71",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.34694,
+        "lng": 127.01416
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-277c",
+      "name": "생태자연도 1등급 구역 72",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.347161,
+        "lng": 127.016631
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-277b",
+      "name": "생태자연도 1등급 구역 73",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.343187,
+        "lng": 127.020572
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-277a",
+      "name": "생태자연도 1등급 구역 74",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.424641,
+        "lng": 126.935233
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2779",
+      "name": "생태자연도 1등급 구역 75",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.151591,
+        "lng": 126.835179
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2778",
+      "name": "생태자연도 1등급 구역 76",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.428464,
+        "lng": 126.935485
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2777",
+      "name": "생태자연도 1등급 구역 77",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.429521,
+        "lng": 126.933818
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2776",
+      "name": "생태자연도 1등급 구역 78",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.425667,
+        "lng": 126.932576
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2775",
+      "name": "생태자연도 1등급 구역 79",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.427292,
+        "lng": 126.935319
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2774",
+      "name": "생태자연도 1등급 구역 80",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.343723,
+        "lng": 127.016016
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2773",
+      "name": "생태자연도 1등급 구역 81",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.429938,
+        "lng": 126.969161
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2772",
+      "name": "생태자연도 1등급 구역 82",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.355269,
+        "lng": 126.910987
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2771",
+      "name": "생태자연도 1등급 구역 83",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.35479,
+        "lng": 126.912697
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2770",
+      "name": "생태자연도 1등급 구역 84",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.557664,
+        "lng": 126.781761
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-276f",
+      "name": "생태자연도 1등급 구역 85",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.356098,
+        "lng": 126.911857
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-276e",
+      "name": "생태자연도 1등급 구역 86",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.35316,
+        "lng": 126.910478
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-276d",
+      "name": "생태자연도 1등급 구역 87",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.355376,
+        "lng": 126.909339
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-276c",
+      "name": "생태자연도 1등급 구역 88",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.358138,
+        "lng": 126.912555
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-276b",
+      "name": "생태자연도 1등급 구역 89",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.55835,
+        "lng": 126.782148
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-276a",
+      "name": "생태자연도 1등급 구역 90",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.425786,
+        "lng": 126.934882
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2769",
+      "name": "생태자연도 1등급 구역 91",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.426709,
+        "lng": 126.93261
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2768",
+      "name": "생태자연도 1등급 구역 92",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.509408,
+        "lng": 127.049251
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2767",
+      "name": "생태자연도 1등급 구역 93",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.524485,
+        "lng": 127.276403
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2766",
+      "name": "생태자연도 1등급 구역 94",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.427241,
+        "lng": 126.968914
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2765",
+      "name": "생태자연도 1등급 구역 95",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.428446,
+        "lng": 126.933404
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2764",
+      "name": "생태자연도 1등급 구역 96",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.24317,
+        "lng": 126.572092
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2763",
+      "name": "생태자연도 1등급 구역 97",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.456881,
+        "lng": 126.963067
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2762",
+      "name": "생태자연도 1등급 구역 98",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.456918,
+        "lng": 126.970828
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2761",
+      "name": "생태자연도 1등급 구역 99",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.45884,
+        "lng": 126.96033
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "eco1_mgmt_area.fid--4609493c_19b67fafcd6_-2760",
+      "name": "생태자연도 1등급 구역 100",
+      "name_en": "",
+      "type": "생태보호구역",
+      "category": "ecology",
+      "location": {
+        "lat": 37.096559,
+        "lng": 127.036519
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 70,
+        "total": 28
+      },
+      "description": " 생태계 보전의 가치를 배울 수 있는 생태보호구역입니다.",
+      "source": "eco1_mgmt_area",
+      "priority": false,
+      "designated_year": ""
+    }
+  ]
+}

@@ -6,8 +6,14 @@ server/node_modules
 # Claude Code
 .claude
 
-# Data files (processed/raw data not needed for build)
-data
+# Data files (root data/ only, not src/data/)
+/data
+src/data/climate_api_raw
+src/data/climate_raw
+src/data/climate_processed
+src/data/tour_api
+src/data/*.xlsx
+src/data/~$*
 
 # Build output
 dist

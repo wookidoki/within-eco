@@ -41,10 +41,18 @@ coverage/
 *.sqlite3
 data/within.db
 
-# Large data directories
-data/
+# Large data directories (root data/ only, not src/data/)
+/data/
 server/data/
 server/uploads/
+
+# Large JSON data files in src/data (keep JS modules)
+src/data/climate_api_raw/
+src/data/climate_raw/
+src/data/climate_processed/
+src/data/tour_api/
+src/data/*.xlsx
+src/data/~$*
 
 # Misc
 *.local

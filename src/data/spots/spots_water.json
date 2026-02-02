@@ -1,0 +1,5286 @@
+{
+  "category": "water",
+  "count": 220,
+  "spots": [
+    {
+      "id": "ricefld_wetln.58666",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.265548,
+        "lng": 126.57368
+      },
+      "area_sqm": 15295.26838699,
+      "district": "안산시",
+      "scores": {
+        "area": 54,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 39
+      },
+      "description": "안산시 소재 약 1.5ha 규모의 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58679",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.27201,
+        "lng": 126.582824
+      },
+      "area_sqm": 14974.06693074,
+      "district": "안산시",
+      "scores": {
+        "area": 54,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 39
+      },
+      "description": "안산시 소재 약 1.5ha 규모의 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58776",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.958961,
+        "lng": 126.852266
+      },
+      "area_sqm": 19364.55218824,
+      "district": "평택시",
+      "scores": {
+        "area": 57,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 39
+      },
+      "description": "평택시 소재 약 1.9ha 규모의 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58546",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.37724,
+        "lng": 127.067491
+      },
+      "area_sqm": 10188.55435157,
+      "district": "성남시",
+      "scores": {
+        "area": 50,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 38
+      },
+      "description": "성남시 소재 약 1.0ha 규모의 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58649",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.208304,
+        "lng": 126.652273
+      },
+      "area_sqm": 13882.45088393,
+      "district": "안산시",
+      "scores": {
+        "area": 53,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 38
+      },
+      "description": "안산시 소재 약 1.4ha 규모의 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58715",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.319368,
+        "lng": 127.044056
+      },
+      "area_sqm": 11899.35995938,
+      "district": "용인시",
+      "scores": {
+        "area": 51,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 38
+      },
+      "description": "용인시 소재 약 1.2ha 규모의 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58807",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.933087,
+        "lng": 126.907591
+      },
+      "area_sqm": 14140.27658985,
+      "district": "평택시",
+      "scores": {
+        "area": 53,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 38
+      },
+      "description": "평택시 소재 약 1.4ha 규모의 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58573",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.39592,
+        "lng": 127.088125
+      },
+      "area_sqm": 7958.65542748,
+      "district": "성남시",
+      "scores": {
+        "area": 47,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 37
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58626",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.260366,
+        "lng": 127.000365
+      },
+      "area_sqm": 9099.01784282,
+      "district": "수원시",
+      "scores": {
+        "area": 48,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 37
+      },
+      "description": "수원시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58627",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.252806,
+        "lng": 126.995539
+      },
+      "area_sqm": 9265.76640949,
+      "district": "수원시",
+      "scores": {
+        "area": 49,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 37
+      },
+      "description": "수원시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58642",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.37344,
+        "lng": 126.82831
+      },
+      "area_sqm": 7847.92627626,
+      "district": "시흥시",
+      "scores": {
+        "area": 47,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 37
+      },
+      "description": "시흥시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58657",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.236109,
+        "lng": 126.581556
+      },
+      "area_sqm": 7309.24886086,
+      "district": "안산시",
+      "scores": {
+        "area": 46,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 37
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58664",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.259481,
+        "lng": 126.596437
+      },
+      "area_sqm": 7217.88833083,
+      "district": "안산시",
+      "scores": {
+        "area": 46,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 37
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58688",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.258719,
+        "lng": 126.577364
+      },
+      "area_sqm": 7864.03159699,
+      "district": "안산시",
+      "scores": {
+        "area": 47,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 37
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58697",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.352236,
+        "lng": 126.86728
+      },
+      "area_sqm": 7536.44532178,
+      "district": "안산시",
+      "scores": {
+        "area": 46,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 37
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58796",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.998576,
+        "lng": 126.975842
+      },
+      "area_sqm": 7667.45745243,
+      "district": "평택시",
+      "scores": {
+        "area": 47,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 37
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.1",
+      "name": "한강",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.239529,
+        "lng": 127.744352
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.2",
+      "name": "임진강",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.30181,
+        "lng": 127.49333
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.3",
+      "name": "북한강",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.443393,
+        "lng": 127.285811
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.4",
+      "name": "남한강",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.414729,
+        "lng": 126.899037
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.5",
+      "name": "경안천",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.451409,
+        "lng": 126.84699
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.6",
+      "name": "안양천",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.594647,
+        "lng": 126.787652
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.7",
+      "name": "중랑천",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.653104,
+        "lng": 126.736998
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.8",
+      "name": "탄천",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.689708,
+        "lng": 127.049716
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.9",
+      "name": "왕숙천",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.746848,
+        "lng": 126.783378
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.10",
+      "name": "공릉천",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.810741,
+        "lng": 126.809894
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.11",
+      "name": "신천",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.920871,
+        "lng": 127.04801
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.12",
+      "name": "곡릉천",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.72398,
+        "lng": 127.531212
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.13",
+      "name": "문산천",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.176613,
+        "lng": 127.677687
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.14",
+      "name": "사천",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.599556,
+        "lng": 126.784235
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.15",
+      "name": "청평천",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.057588,
+        "lng": 127.006496
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.16",
+      "name": "조종천",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.163948,
+        "lng": 127.071588
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.17",
+      "name": "홍천강",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.162095,
+        "lng": 127.004281
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.18",
+      "name": "소양강",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 36.951914,
+        "lng": 126.983442
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.19",
+      "name": "섬강",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.665139,
+        "lng": 127.408661
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ntn_rvr.20",
+      "name": "복하천",
+      "name_en": "",
+      "type": "국가하천",
+      "category": "water",
+      "location": {
+        "lat": 37.978706,
+        "lng": 126.877724
+      },
+      "area_sqm": 0,
+      "district": "",
+      "scores": {
+        "area": 0,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 37
+      },
+      "description": " 수변 생태를 관찰할 수 있는 국가하천입니다.",
+      "source": "national_river",
+      "priority": true,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58559",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.393766,
+        "lng": 127.087158
+      },
+      "area_sqm": 4984.52066425,
+      "district": "성남시",
+      "scores": {
+        "area": 42,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 36
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58616",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.442589,
+        "lng": 127.101329
+      },
+      "area_sqm": 6743.29588756,
+      "district": "성남시",
+      "scores": {
+        "area": 45,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 36
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58622",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.294697,
+        "lng": 126.949004
+      },
+      "area_sqm": 4962.44119332,
+      "district": "수원시",
+      "scores": {
+        "area": 42,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 36
+      },
+      "description": "수원시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58624",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.285879,
+        "lng": 126.960004
+      },
+      "area_sqm": 6282.28269253,
+      "district": "수원시",
+      "scores": {
+        "area": 44,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 36
+      },
+      "description": "수원시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58662",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.237344,
+        "lng": 126.603592
+      },
+      "area_sqm": 5817.29347114,
+      "district": "안산시",
+      "scores": {
+        "area": 44,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 36
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58665",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.258782,
+        "lng": 126.580575
+      },
+      "area_sqm": 5604.41919676,
+      "district": "안산시",
+      "scores": {
+        "area": 43,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 36
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66330",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.605208,
+        "lng": 127.582264
+      },
+      "area_sqm": 5383.62853111,
+      "district": "양평군",
+      "scores": {
+        "area": 43,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 36
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66092",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.537601,
+        "lng": 127.769261
+      },
+      "area_sqm": 5852.724281,
+      "district": "양평군",
+      "scores": {
+        "area": 44,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 36
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58754",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.004233,
+        "lng": 126.89281
+      },
+      "area_sqm": 6884.87674002,
+      "district": "평택시",
+      "scores": {
+        "area": 45,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 36
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66094",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.54196,
+        "lng": 127.763257
+      },
+      "area_sqm": 5354.22768918,
+      "district": "양평군",
+      "scores": {
+        "area": 43,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 36
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58778",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.947221,
+        "lng": 126.873332
+      },
+      "area_sqm": 5551.1078825,
+      "district": "평택시",
+      "scores": {
+        "area": 43,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 36
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58803",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.933885,
+        "lng": 126.906347
+      },
+      "area_sqm": 5120.96994752,
+      "district": "평택시",
+      "scores": {
+        "area": 42,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 36
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58529",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.425851,
+        "lng": 127.030284
+      },
+      "area_sqm": 3898.35950775,
+      "district": "과천시",
+      "scores": {
+        "area": 39,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "과천시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58550",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.366353,
+        "lng": 127.078786
+      },
+      "area_sqm": 3833.86097457,
+      "district": "성남시",
+      "scores": {
+        "area": 39,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58580",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.401715,
+        "lng": 127.063474
+      },
+      "area_sqm": 3879.44624791,
+      "district": "성남시",
+      "scores": {
+        "area": 39,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58601",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.427892,
+        "lng": 127.060589
+      },
+      "area_sqm": 3724.87678697,
+      "district": "성남시",
+      "scores": {
+        "area": 39,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58619",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.307246,
+        "lng": 126.969447
+      },
+      "area_sqm": 3536.64829654,
+      "district": "수원시",
+      "scores": {
+        "area": 38,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "수원시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58620",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.279692,
+        "lng": 126.941141
+      },
+      "area_sqm": 3738.06884599,
+      "district": "수원시",
+      "scores": {
+        "area": 39,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "수원시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58623",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.277175,
+        "lng": 126.964583
+      },
+      "area_sqm": 3585.56564464,
+      "district": "수원시",
+      "scores": {
+        "area": 38,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "수원시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58640",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.35341,
+        "lng": 126.787802
+      },
+      "area_sqm": 4225.05574687,
+      "district": "시흥시",
+      "scores": {
+        "area": 40,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "시흥시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58644",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.373724,
+        "lng": 126.822826
+      },
+      "area_sqm": 3480.17209477,
+      "district": "시흥시",
+      "scores": {
+        "area": 38,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "시흥시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58646",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.375906,
+        "lng": 126.872766
+      },
+      "area_sqm": 4462.30681553,
+      "district": "시흥시",
+      "scores": {
+        "area": 41,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "시흥시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58650",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.211544,
+        "lng": 126.552481
+      },
+      "area_sqm": 3837.27623562,
+      "district": "안산시",
+      "scores": {
+        "area": 39,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58660",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.236511,
+        "lng": 126.6073
+      },
+      "area_sqm": 4400.98933886,
+      "district": "안산시",
+      "scores": {
+        "area": 41,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58663",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.234393,
+        "lng": 126.566346
+      },
+      "area_sqm": 3722.57248777,
+      "district": "안산시",
+      "scores": {
+        "area": 39,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58671",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.280368,
+        "lng": 126.553779
+      },
+      "area_sqm": 4263.40675044,
+      "district": "안산시",
+      "scores": {
+        "area": 40,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58672",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.246032,
+        "lng": 126.601493
+      },
+      "area_sqm": 4206.87115446,
+      "district": "안산시",
+      "scores": {
+        "area": 40,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58676",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.261781,
+        "lng": 126.571342
+      },
+      "area_sqm": 3382.24004551,
+      "district": "안산시",
+      "scores": {
+        "area": 38,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58684",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.253083,
+        "lng": 126.616176
+      },
+      "area_sqm": 4584.80154042,
+      "district": "안산시",
+      "scores": {
+        "area": 41,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58685",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.248351,
+        "lng": 126.588249
+      },
+      "area_sqm": 3774.5797861,
+      "district": "안산시",
+      "scores": {
+        "area": 39,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58698",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.303425,
+        "lng": 126.91979
+      },
+      "area_sqm": 3361.85883803,
+      "district": "안산시",
+      "scores": {
+        "area": 38,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58699",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.069337,
+        "lng": 127.104968
+      },
+      "area_sqm": 3369.96429934,
+      "district": "안성시",
+      "scores": {
+        "area": 38,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "안성시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58710",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.147205,
+        "lng": 127.098172
+      },
+      "area_sqm": 3347.35543932,
+      "district": "오산시",
+      "scores": {
+        "area": 38,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "오산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58713",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.331828,
+        "lng": 127.073557
+      },
+      "area_sqm": 4280.57007192,
+      "district": "용인시",
+      "scores": {
+        "area": 40,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "용인시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58733",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.395723,
+        "lng": 127.019653
+      },
+      "area_sqm": 4273.06435745,
+      "district": "의왕시",
+      "scores": {
+        "area": 40,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "의왕시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58766",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.996577,
+        "lng": 126.872213
+      },
+      "area_sqm": 4329.95012829,
+      "district": "평택시",
+      "scores": {
+        "area": 40,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58783",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.971409,
+        "lng": 126.892763
+      },
+      "area_sqm": 4177.7473601,
+      "district": "평택시",
+      "scores": {
+        "area": 40,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58788",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.954293,
+        "lng": 126.911311
+      },
+      "area_sqm": 3332.83525694,
+      "district": "평택시",
+      "scores": {
+        "area": 38,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58802",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.939092,
+        "lng": 126.90884
+      },
+      "area_sqm": 3618.24512629,
+      "district": "평택시",
+      "scores": {
+        "area": 38,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66096",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.539234,
+        "lng": 127.755024
+      },
+      "area_sqm": 3354.49170011,
+      "district": "양평군",
+      "scores": {
+        "area": 38,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 35
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58534",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.445799,
+        "lng": 126.855604
+      },
+      "area_sqm": 3266.25243879,
+      "district": "광명시",
+      "scores": {
+        "area": 37,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "광명시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66075",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.56812,
+        "lng": 127.802368
+      },
+      "area_sqm": 2899.31058378,
+      "district": "양평군",
+      "scores": {
+        "area": 36,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58539",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.32382,
+        "lng": 126.906855
+      },
+      "area_sqm": 2377.17434021,
+      "district": "군포시",
+      "scores": {
+        "area": 34,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "군포시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58542",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.343276,
+        "lng": 126.900273
+      },
+      "area_sqm": 2629.64985406,
+      "district": "군포시",
+      "scores": {
+        "area": 35,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "군포시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58543",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.347454,
+        "lng": 126.930274
+      },
+      "area_sqm": 3070.90427724,
+      "district": "군포시",
+      "scores": {
+        "area": 37,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "군포시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58551",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.374459,
+        "lng": 127.059076
+      },
+      "area_sqm": 2510.62265401,
+      "district": "성남시",
+      "scores": {
+        "area": 34,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58589",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.397918,
+        "lng": 127.055095
+      },
+      "area_sqm": 2400.57599984,
+      "district": "성남시",
+      "scores": {
+        "area": 34,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58590",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.411643,
+        "lng": 127.069609
+      },
+      "area_sqm": 2308.31291239,
+      "district": "성남시",
+      "scores": {
+        "area": 34,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58594",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.422856,
+        "lng": 127.083642
+      },
+      "area_sqm": 2750.15161114,
+      "district": "성남시",
+      "scores": {
+        "area": 35,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58621",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.298463,
+        "lng": 126.940866
+      },
+      "area_sqm": 3190.17296291,
+      "district": "수원시",
+      "scores": {
+        "area": 37,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "수원시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58629",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.328127,
+        "lng": 126.973662
+      },
+      "area_sqm": 2792.03965541,
+      "district": "수원시",
+      "scores": {
+        "area": 36,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "수원시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58631",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.325669,
+        "lng": 126.979234
+      },
+      "area_sqm": 2544.66029382,
+      "district": "수원시",
+      "scores": {
+        "area": 35,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "수원시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58656",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.234786,
+        "lng": 126.579663
+      },
+      "area_sqm": 2348.61590158,
+      "district": "안산시",
+      "scores": {
+        "area": 34,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58667",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.265917,
+        "lng": 126.58204
+      },
+      "area_sqm": 2605.44929938,
+      "district": "안산시",
+      "scores": {
+        "area": 35,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58681",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.274379,
+        "lng": 126.579331
+      },
+      "area_sqm": 2601.40716071,
+      "district": "안산시",
+      "scores": {
+        "area": 35,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58702",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.144271,
+        "lng": 127.035412
+      },
+      "area_sqm": 2517.75734545,
+      "district": "오산시",
+      "scores": {
+        "area": 35,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "오산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58720",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.335049,
+        "lng": 127.068506
+      },
+      "area_sqm": 2525.61288156,
+      "district": "용인시",
+      "scores": {
+        "area": 35,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "용인시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58721",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.301817,
+        "lng": 126.952377
+      },
+      "area_sqm": 2826.72170573,
+      "district": "의왕시",
+      "scores": {
+        "area": 36,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "의왕시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58723",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.301662,
+        "lng": 126.952809
+      },
+      "area_sqm": 2522.38196637,
+      "district": "의왕시",
+      "scores": {
+        "area": 35,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "의왕시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66093",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.537892,
+        "lng": 127.769428
+      },
+      "area_sqm": 2327.11426915,
+      "district": "양평군",
+      "scores": {
+        "area": 34,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58741",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.989762,
+        "lng": 126.883825
+      },
+      "area_sqm": 2903.77098962,
+      "district": "평택시",
+      "scores": {
+        "area": 36,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58760",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.961507,
+        "lng": 126.875868
+      },
+      "area_sqm": 2488.89008717,
+      "district": "평택시",
+      "scores": {
+        "area": 34,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58777",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.943458,
+        "lng": 126.883757
+      },
+      "area_sqm": 3036.40308584,
+      "district": "평택시",
+      "scores": {
+        "area": 37,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58781",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.985735,
+        "lng": 126.893509
+      },
+      "area_sqm": 3079.0470416,
+      "district": "평택시",
+      "scores": {
+        "area": 37,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58790",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.984478,
+        "lng": 126.939392
+      },
+      "area_sqm": 2454.55568542,
+      "district": "평택시",
+      "scores": {
+        "area": 34,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58795",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.001365,
+        "lng": 126.916294
+      },
+      "area_sqm": 2803.17375356,
+      "district": "평택시",
+      "scores": {
+        "area": 36,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58798",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.933697,
+        "lng": 126.973699
+      },
+      "area_sqm": 2340.38831451,
+      "district": "평택시",
+      "scores": {
+        "area": 34,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58799",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.949511,
+        "lng": 126.910195
+      },
+      "area_sqm": 2579.13831924,
+      "district": "평택시",
+      "scores": {
+        "area": 35,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 34
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58527",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.448608,
+        "lng": 127.033281
+      },
+      "area_sqm": 2238.36529923,
+      "district": "과천시",
+      "scores": {
+        "area": 33,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "과천시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58541",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.344243,
+        "lng": 126.905416
+      },
+      "area_sqm": 1831.57234383,
+      "district": "군포시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "군포시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58547",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.372369,
+        "lng": 127.045469
+      },
+      "area_sqm": 2051.70192173,
+      "district": "성남시",
+      "scores": {
+        "area": 32,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58549",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.371814,
+        "lng": 127.043569
+      },
+      "area_sqm": 1674.40554589,
+      "district": "성남시",
+      "scores": {
+        "area": 30,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58565",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.384148,
+        "lng": 127.070455
+      },
+      "area_sqm": 1635.99711955,
+      "district": "성남시",
+      "scores": {
+        "area": 30,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58574",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.373917,
+        "lng": 127.034252
+      },
+      "area_sqm": 1893.80634821,
+      "district": "성남시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58581",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.402854,
+        "lng": 127.087964
+      },
+      "area_sqm": 1754.62569361,
+      "district": "성남시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58587",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.39971,
+        "lng": 127.087522
+      },
+      "area_sqm": 2195.51643577,
+      "district": "성남시",
+      "scores": {
+        "area": 33,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58592",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.414616,
+        "lng": 127.069817
+      },
+      "area_sqm": 1841.41673059,
+      "district": "성남시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58595",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.415043,
+        "lng": 127.08764
+      },
+      "area_sqm": 1816.1817667,
+      "district": "성남시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58596",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.42451,
+        "lng": 127.064011
+      },
+      "area_sqm": 1614.45363225,
+      "district": "성남시",
+      "scores": {
+        "area": 30,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66084",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.536281,
+        "lng": 127.715648
+      },
+      "area_sqm": 1804.19698198,
+      "district": "양평군",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66085",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.569657,
+        "lng": 127.802592
+      },
+      "area_sqm": 2094.09521269,
+      "district": "양평군",
+      "scores": {
+        "area": 33,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58643",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.375964,
+        "lng": 126.820805
+      },
+      "area_sqm": 1825.0943687,
+      "district": "시흥시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "시흥시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58645",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.373373,
+        "lng": 126.829645
+      },
+      "area_sqm": 1897.97941682,
+      "district": "시흥시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "시흥시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58654",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.223834,
+        "lng": 126.596646
+      },
+      "area_sqm": 2236.09822661,
+      "district": "안산시",
+      "scores": {
+        "area": 33,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66087",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.542174,
+        "lng": 127.727224
+      },
+      "area_sqm": 2187.99201591,
+      "district": "양평군",
+      "scores": {
+        "area": 33,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58661",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.238302,
+        "lng": 126.582575
+      },
+      "area_sqm": 1765.29277629,
+      "district": "안산시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66088",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.563296,
+        "lng": 127.768876
+      },
+      "area_sqm": 2238.92217912,
+      "district": "양평군",
+      "scores": {
+        "area": 33,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58673",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.257886,
+        "lng": 126.571591
+      },
+      "area_sqm": 2052.54964654,
+      "district": "안산시",
+      "scores": {
+        "area": 32,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58677",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.27151,
+        "lng": 126.577142
+      },
+      "area_sqm": 1804.16134721,
+      "district": "안산시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58687",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.254693,
+        "lng": 126.6088
+      },
+      "area_sqm": 2104.64143422,
+      "district": "안산시",
+      "scores": {
+        "area": 33,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58689",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.258919,
+        "lng": 126.581035
+      },
+      "area_sqm": 1919.48140474,
+      "district": "안산시",
+      "scores": {
+        "area": 32,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58693",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.361456,
+        "lng": 126.849172
+      },
+      "area_sqm": 2025.90154658,
+      "district": "안산시",
+      "scores": {
+        "area": 32,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58695",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.366833,
+        "lng": 126.883641
+      },
+      "area_sqm": 1924.47814244,
+      "district": "안산시",
+      "scores": {
+        "area": 32,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58696",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.354506,
+        "lng": 126.874088
+      },
+      "area_sqm": 1742.97260943,
+      "district": "안산시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58719",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.353899,
+        "lng": 127.065445
+      },
+      "area_sqm": 2028.36485336,
+      "district": "용인시",
+      "scores": {
+        "area": 32,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "용인시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58740",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.966715,
+        "lng": 126.872894
+      },
+      "area_sqm": 1641.64394333,
+      "district": "평택시",
+      "scores": {
+        "area": 30,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66331",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.614462,
+        "lng": 127.59373
+      },
+      "area_sqm": 1629.53732125,
+      "district": "양평군",
+      "scores": {
+        "area": 30,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58743",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.988157,
+        "lng": 126.88511
+      },
+      "area_sqm": 1726.56350351,
+      "district": "평택시",
+      "scores": {
+        "area": 30,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58744",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.986188,
+        "lng": 126.88142
+      },
+      "area_sqm": 2055.38054983,
+      "district": "평택시",
+      "scores": {
+        "area": 32,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58747",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.028241,
+        "lng": 126.879211
+      },
+      "area_sqm": 2061.28759358,
+      "district": "평택시",
+      "scores": {
+        "area": 32,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58751",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.997235,
+        "lng": 126.883402
+      },
+      "area_sqm": 1693.75905318,
+      "district": "평택시",
+      "scores": {
+        "area": 30,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58755",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.015777,
+        "lng": 126.885541
+      },
+      "area_sqm": 2077.34817307,
+      "district": "평택시",
+      "scores": {
+        "area": 32,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58756",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.013101,
+        "lng": 126.893147
+      },
+      "area_sqm": 1662.92414434,
+      "district": "평택시",
+      "scores": {
+        "area": 30,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58761",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.967448,
+        "lng": 126.879023
+      },
+      "area_sqm": 1805.97934951,
+      "district": "평택시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58764",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.96662,
+        "lng": 126.863986
+      },
+      "area_sqm": 1627.5119915,
+      "district": "평택시",
+      "scores": {
+        "area": 30,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58765",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.962007,
+        "lng": 126.875595
+      },
+      "area_sqm": 1590.70820961,
+      "district": "평택시",
+      "scores": {
+        "area": 30,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58768",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.999951,
+        "lng": 126.832293
+      },
+      "area_sqm": 2201.99645518,
+      "district": "평택시",
+      "scores": {
+        "area": 33,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58772",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.001423,
+        "lng": 126.832809
+      },
+      "area_sqm": 1733.75434844,
+      "district": "평택시",
+      "scores": {
+        "area": 30,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58780",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.951952,
+        "lng": 126.891729
+      },
+      "area_sqm": 2043.45297879,
+      "district": "평택시",
+      "scores": {
+        "area": 32,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58785",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.961759,
+        "lng": 126.875886
+      },
+      "area_sqm": 2070.09996843,
+      "district": "평택시",
+      "scores": {
+        "area": 32,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58786",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.93537,
+        "lng": 126.892631
+      },
+      "area_sqm": 1859.67428861,
+      "district": "평택시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58787",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.989344,
+        "lng": 126.881725
+      },
+      "area_sqm": 2137.06198716,
+      "district": "평택시",
+      "scores": {
+        "area": 33,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58791",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.946407,
+        "lng": 126.920743
+      },
+      "area_sqm": 1738.58853884,
+      "district": "평택시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58804",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.941841,
+        "lng": 126.907557
+      },
+      "area_sqm": 1801.16220108,
+      "district": "평택시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66097",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.540171,
+        "lng": 127.75823
+      },
+      "area_sqm": 2144.20643299,
+      "district": "양평군",
+      "scores": {
+        "area": 33,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58811",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.961878,
+        "lng": 126.902982
+      },
+      "area_sqm": 1784.68397948,
+      "district": "평택시",
+      "scores": {
+        "area": 31,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 33
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58532",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.411182,
+        "lng": 126.865443
+      },
+      "area_sqm": 1183.03341262,
+      "district": "광명시",
+      "scores": {
+        "area": 26,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "광명시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58536",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.347453,
+        "lng": 126.892375
+      },
+      "area_sqm": 1216.55054473,
+      "district": "군포시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "군포시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58537",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.322851,
+        "lng": 126.88658
+      },
+      "area_sqm": 1376.1487323,
+      "district": "군포시",
+      "scores": {
+        "area": 28,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "군포시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58552",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.370968,
+        "lng": 127.066439
+      },
+      "area_sqm": 1261.93026727,
+      "district": "성남시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58553",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.380483,
+        "lng": 127.036669
+      },
+      "area_sqm": 1134.92325488,
+      "district": "성남시",
+      "scores": {
+        "area": 26,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58558",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.395425,
+        "lng": 127.081182
+      },
+      "area_sqm": 1241.97160174,
+      "district": "성남시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58562",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.39515,
+        "lng": 127.080795
+      },
+      "area_sqm": 1488.59143705,
+      "district": "성남시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58564",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.387603,
+        "lng": 127.065786
+      },
+      "area_sqm": 1333.13636581,
+      "district": "성남시",
+      "scores": {
+        "area": 28,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58566",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.385953,
+        "lng": 127.066232
+      },
+      "area_sqm": 1198.30980239,
+      "district": "성남시",
+      "scores": {
+        "area": 26,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58568",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.384176,
+        "lng": 127.069727
+      },
+      "area_sqm": 1308.03001109,
+      "district": "성남시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58583",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.400984,
+        "lng": 127.072927
+      },
+      "area_sqm": 1305.50579115,
+      "district": "성남시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58585",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.399651,
+        "lng": 127.090208
+      },
+      "area_sqm": 1512.08119197,
+      "district": "성남시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58586",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.400061,
+        "lng": 127.088702
+      },
+      "area_sqm": 1534.54791453,
+      "district": "성남시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58588",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.399604,
+        "lng": 127.083903
+      },
+      "area_sqm": 1448.06884439,
+      "district": "성남시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58597",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.429613,
+        "lng": 127.077428
+      },
+      "area_sqm": 1545.24032468,
+      "district": "성남시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58599",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.427339,
+        "lng": 127.08352
+      },
+      "area_sqm": 1118.71428617,
+      "district": "성남시",
+      "scores": {
+        "area": 26,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66082",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.542857,
+        "lng": 127.726963
+      },
+      "area_sqm": 1319.44436584,
+      "district": "양평군",
+      "scores": {
+        "area": 28,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58605",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.387903,
+        "lng": 127.106631
+      },
+      "area_sqm": 1348.26085227,
+      "district": "성남시",
+      "scores": {
+        "area": 28,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58606",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.396206,
+        "lng": 127.093798
+      },
+      "area_sqm": 1202.92748,
+      "district": "성남시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58607",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.396712,
+        "lng": 127.090956
+      },
+      "area_sqm": 1444.41989994,
+      "district": "성남시",
+      "scores": {
+        "area": 28,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58610",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.415464,
+        "lng": 127.104812
+      },
+      "area_sqm": 1309.02417647,
+      "district": "성남시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58612",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.413575,
+        "lng": 127.095989
+      },
+      "area_sqm": 1558.05543278,
+      "district": "성남시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58615",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.453527,
+        "lng": 127.096474
+      },
+      "area_sqm": 1202.34144897,
+      "district": "성남시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58617",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.426396,
+        "lng": 127.092396
+      },
+      "area_sqm": 1122.13118509,
+      "district": "성남시",
+      "scores": {
+        "area": 26,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58628",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.315174,
+        "lng": 126.976082
+      },
+      "area_sqm": 1096.78282632,
+      "district": "수원시",
+      "scores": {
+        "area": 26,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "수원시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58648",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.210732,
+        "lng": 126.560663
+      },
+      "area_sqm": 1262.84581194,
+      "district": "안산시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58652",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.222912,
+        "lng": 126.573077
+      },
+      "area_sqm": 1391.6431391,
+      "district": "안산시",
+      "scores": {
+        "area": 28,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58658",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.235514,
+        "lng": 126.612765
+      },
+      "area_sqm": 1371.73664843,
+      "district": "안산시",
+      "scores": {
+        "area": 28,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58659",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.236939,
+        "lng": 126.616393
+      },
+      "area_sqm": 1316.72484708,
+      "district": "안산시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.66089",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.545233,
+        "lng": 127.746614
+      },
+      "area_sqm": 1464.75766695,
+      "district": "양평군",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "양평군 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58675",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.265428,
+        "lng": 126.578581
+      },
+      "area_sqm": 1474.8766747,
+      "district": "안산시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58678",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.265768,
+        "lng": 126.572381
+      },
+      "area_sqm": 1286.73230948,
+      "district": "안산시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58686",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.258507,
+        "lng": 126.571768
+      },
+      "area_sqm": 1247.91356022,
+      "district": "안산시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58690",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.276117,
+        "lng": 126.849932
+      },
+      "area_sqm": 1513.67434017,
+      "district": "안산시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58691",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.327499,
+        "lng": 126.750989
+      },
+      "area_sqm": 1474.48544073,
+      "district": "안산시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58694",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.370642,
+        "lng": 126.885513
+      },
+      "area_sqm": 1386.01610852,
+      "district": "안산시",
+      "scores": {
+        "area": 28,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58701",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.138144,
+        "lng": 127.088267
+      },
+      "area_sqm": 1243.98397024,
+      "district": "오산시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "오산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58707",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.170192,
+        "lng": 127.020639
+      },
+      "area_sqm": 1373.30626945,
+      "district": "오산시",
+      "scores": {
+        "area": 28,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "오산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58709",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.137858,
+        "lng": 127.087103
+      },
+      "area_sqm": 1426.2267309,
+      "district": "오산시",
+      "scores": {
+        "area": 28,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "오산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58711",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.237867,
+        "lng": 127.080944
+      },
+      "area_sqm": 1343.68939109,
+      "district": "용인시",
+      "scores": {
+        "area": 28,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "용인시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58722",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.305572,
+        "lng": 126.939891
+      },
+      "area_sqm": 1580.25216459,
+      "district": "의왕시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "의왕시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58727",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.360532,
+        "lng": 126.982194
+      },
+      "area_sqm": 1229.52400418,
+      "district": "의왕시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "의왕시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58728",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.378159,
+        "lng": 126.98114
+      },
+      "area_sqm": 1225.56657982,
+      "district": "의왕시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "의왕시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58739",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.407665,
+        "lng": 127.020055
+      },
+      "area_sqm": 1121.02336008,
+      "district": "의왕시",
+      "scores": {
+        "area": 26,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "의왕시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58753",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.001946,
+        "lng": 126.892253
+      },
+      "area_sqm": 1263.81738063,
+      "district": "평택시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58757",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.025707,
+        "lng": 126.870623
+      },
+      "area_sqm": 1569.67221147,
+      "district": "평택시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58767",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.990249,
+        "lng": 126.866807
+      },
+      "area_sqm": 1317.27976272,
+      "district": "평택시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58775",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.949648,
+        "lng": 126.883696
+      },
+      "area_sqm": 1542.86376284,
+      "district": "평택시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58779",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.960478,
+        "lng": 126.85256
+      },
+      "area_sqm": 1234.57931646,
+      "district": "평택시",
+      "scores": {
+        "area": 27,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58782",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.966965,
+        "lng": 126.89205
+      },
+      "area_sqm": 1333.79046446,
+      "district": "평택시",
+      "scores": {
+        "area": 28,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58784",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.020721,
+        "lng": 126.891987
+      },
+      "area_sqm": 1125.23882483,
+      "district": "평택시",
+      "scores": {
+        "area": 26,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58792",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.930804,
+        "lng": 126.946629
+      },
+      "area_sqm": 1400.51459221,
+      "district": "평택시",
+      "scores": {
+        "area": 28,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58805",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.956506,
+        "lng": 126.89881
+      },
+      "area_sqm": 1500.63747646,
+      "district": "평택시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58808",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.935811,
+        "lng": 126.904462
+      },
+      "area_sqm": 1499.6797702,
+      "district": "평택시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58814",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.937594,
+        "lng": 126.903081
+      },
+      "area_sqm": 1494.40141395,
+      "district": "평택시",
+      "scores": {
+        "area": 29,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 32
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58530",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.402616,
+        "lng": 126.873491
+      },
+      "area_sqm": 1046.69309985,
+      "district": "광명시",
+      "scores": {
+        "area": 25,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 31
+      },
+      "description": "광명시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58544",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.389193,
+        "lng": 127.04834
+      },
+      "area_sqm": 1080.13827461,
+      "district": "성남시",
+      "scores": {
+        "area": 25,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 31
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58579",
+      "name": "목본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.381462,
+        "lng": 127.05074
+      },
+      "area_sqm": 1076.80855784,
+      "district": "성남시",
+      "scores": {
+        "area": 25,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 31
+      },
+      "description": "성남시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58651",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.2093,
+        "lng": 126.566919
+      },
+      "area_sqm": 1092.06069687,
+      "district": "안산시",
+      "scores": {
+        "area": 25,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 31
+      },
+      "description": "안산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58704",
+      "name": "목본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.188757,
+        "lng": 127.065924
+      },
+      "area_sqm": 1054.94156409,
+      "district": "오산시",
+      "scores": {
+        "area": 25,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 31
+      },
+      "description": "오산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58706",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.178273,
+        "lng": 127.059388
+      },
+      "area_sqm": 1065.51721653,
+      "district": "오산시",
+      "scores": {
+        "area": 25,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 31
+      },
+      "description": "오산시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58746",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.989758,
+        "lng": 126.882538
+      },
+      "area_sqm": 1039.95109104,
+      "district": "평택시",
+      "scores": {
+        "area": 25,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 31
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58752",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.997675,
+        "lng": 126.882563
+      },
+      "area_sqm": 1053.58168493,
+      "district": "평택시",
+      "scores": {
+        "area": 25,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 31
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58763",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.959753,
+        "lng": 126.884871
+      },
+      "area_sqm": 1008.21831416,
+      "district": "평택시",
+      "scores": {
+        "area": 25,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 31
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58770",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 37.002336,
+        "lng": 126.828269
+      },
+      "area_sqm": 1006.71424619,
+      "district": "평택시",
+      "scores": {
+        "area": 25,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 31
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58793",
+      "name": "초본 우점 묵논습지",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.944247,
+        "lng": 126.958767
+      },
+      "area_sqm": 1065.61932541,
+      "district": "평택시",
+      "scores": {
+        "area": 25,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 31
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58800",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.961507,
+        "lng": 126.901451
+      },
+      "area_sqm": 1054.80390966,
+      "district": "평택시",
+      "scores": {
+        "area": 25,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 31
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    },
+    {
+      "id": "ricefld_wetln.58812",
+      "name": "초본 우점 묵논",
+      "name_en": "",
+      "type": "습지",
+      "category": "water",
+      "location": {
+        "lat": 36.955478,
+        "lng": 126.900944
+      },
+      "area_sqm": 1076.18818378,
+      "district": "평택시",
+      "scores": {
+        "area": 25,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 60,
+        "total": 31
+      },
+      "description": "평택시 소재 수변 생태를 관찰할 수 있는 습지입니다.",
+      "source": "wetland",
+      "priority": false,
+      "designated_year": ""
+    }
+  ]
+}

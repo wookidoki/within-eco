@@ -1,0 +1,151 @@
+{
+  "generated_at": "2025-12-29T13:45:08.146564",
+  "description": "Travel-worthy spots with score >= 50",
+  "count": 6,
+  "spots": [
+    {
+      "id": "provincial_park.36",
+      "name": "수리산",
+      "name_en": "Surisan",
+      "type": "도립공원",
+      "category": "nature",
+      "location": {
+        "lat": 37.353436,
+        "lng": 126.901181
+      },
+      "area_sqm": 6599999.9,
+      "district": "",
+      "scores": {
+        "area": 100,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 62
+      },
+      "description": " 약 6.6km2 규모의 자연과 숲을 체험할 수 있는 도립공원입니다.",
+      "source": "도립공원",
+      "priority": true,
+      "designated_year": 2009
+    },
+    {
+      "id": "provincial_park.37",
+      "name": "남한산성",
+      "name_en": "Namhansanseong",
+      "type": "도립공원",
+      "category": "nature",
+      "location": {
+        "lat": 37.468302,
+        "lng": 127.209391
+      },
+      "area_sqm": 35166000.37,
+      "district": "",
+      "scores": {
+        "area": 100,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 62
+      },
+      "description": " 약 35.2km2 규모의 자연과 숲을 체험할 수 있는 도립공원입니다.",
+      "source": "도립공원",
+      "priority": true,
+      "designated_year": 1971
+    },
+    {
+      "id": "provincial_park.170",
+      "name": "연인산",
+      "name_en": "Yeoninsan",
+      "type": "도립공원",
+      "category": "nature",
+      "location": {
+        "lat": 37.883074,
+        "lng": 127.445329
+      },
+      "area_sqm": 37444999.690000005,
+      "district": "",
+      "scores": {
+        "area": 100,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 62
+      },
+      "description": " 약 37.4km2 규모의 자연과 숲을 체험할 수 있는 도립공원입니다.",
+      "source": "도립공원",
+      "priority": true,
+      "designated_year": 2005
+    },
+    {
+      "id": "provincial_park.195",
+      "name": "철원 DMZ 성재산",
+      "name_en": "Cheorwon DMZ Seongjaesan",
+      "type": "도립공원",
+      "category": "nature",
+      "location": {
+        "lat": 38.278933,
+        "lng": 127.406116
+      },
+      "area_sqm": 4739000.0,
+      "district": "",
+      "scores": {
+        "area": 100,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 62
+      },
+      "description": " 약 4.7km2 규모의 자연과 숲을 체험할 수 있는 도립공원입니다.",
+      "source": "도립공원",
+      "priority": true,
+      "designated_year": 2023
+    },
+    {
+      "id": "county_park.182",
+      "name": "명지산",
+      "name_en": "Myeongjisan County Park",
+      "type": "군립공원",
+      "category": "nature",
+      "location": {
+        "lat": 37.938064,
+        "lng": 127.456579
+      },
+      "area_sqm": 14027000.43,
+      "district": "",
+      "scores": {
+        "area": 100,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 62
+      },
+      "description": " 약 14.0km2 규모의 자연과 숲을 체험할 수 있는 군립공원입니다.",
+      "source": "군립공원",
+      "priority": true,
+      "designated_year": 1991
+    },
+    {
+      "id": "county_park.186",
+      "name": "천마산",
+      "name_en": "Cheonmasan County Park",
+      "type": "군립공원",
+      "category": "nature",
+      "location": {
+        "lat": 37.672641,
+        "lng": 127.277961
+      },
+      "area_sqm": 12461000.44,
+      "district": "",
+      "scores": {
+        "area": 100,
+        "eco_value": 0,
+        "accessibility": 50,
+        "uniqueness": 100,
+        "total": 62
+      },
+      "description": " 약 12.5km2 규모의 자연과 숲을 체험할 수 있는 군립공원입니다.",
+      "source": "군립공원",
+      "priority": true,
+      "designated_year": 1983
+    }
+  ]
+}
