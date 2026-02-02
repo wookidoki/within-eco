@@ -1,5 +1,7 @@
 import allSpotsData from './spots/all_spots.json'
 
+const rawSpots = Array.isArray(allSpotsData?.spots) ? allSpotsData.spots : Array.isArray(allSpotsData) ? allSpotsData : []
+
 export const CATEGORIES = {
   ALL: { emoji: '🗺️', label: '전체', color: '#6B7280' },
   nature: { emoji: '🌳', label: '자연', color: '#22C55E' },
@@ -51,7 +53,7 @@ export const SEASONS = {
 }
 
 // district -> region 매핑, 누락 필드 기본값 추가
-export const ecoSpots = allSpotsData.spots.map(spot => ({
+export const ecoSpots = rawSpots.map(spot => ({
   ...spot,
   region: spot.region || spot.district || '',
   address: spot.address || '',
