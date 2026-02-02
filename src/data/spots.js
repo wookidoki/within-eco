@@ -1,7 +1,5 @@
 import allSpotsData from './spots/all_spots.json'
 
-export const ecoSpots = allSpotsData.spots
-
 export const CATEGORIES = {
   ALL: { emoji: '🗺️', label: '전체', color: '#6B7280' },
   nature: { emoji: '🌳', label: '자연', color: '#22C55E' },
@@ -51,6 +49,17 @@ export const SEASONS = {
   autumn: { emoji: '🍂', label: '가을' },
   winter: { emoji: '❄️', label: '겨울' },
 }
+
+// district -> region 매핑, 누락 필드 기본값 추가
+export const ecoSpots = allSpotsData.spots.map(spot => ({
+  ...spot,
+  region: spot.region || spot.district || '',
+  address: spot.address || '',
+  mission: spot.mission || { reward: Math.max(10, Math.round((spot.scores?.total || 30) * 0.8)), description: `${spot.name} 방문하기` },
+  ecoScores: spot.ecoScores || { total_score: spot.scores?.total || 0 },
+  thumbnail: spot.thumbnail || CATEGORIES[spot.category]?.emoji || '📍',
+  bestSeason: spot.bestSeason || ['ALL'],
+}))
 
 export function getCurrentSeason() {
   const month = new Date().getMonth() + 1
