@@ -1,0 +1,42 @@
+# Large data directories (root level only, NOT src/data)
+/data/
+/server/data/
+/server/uploads/
+
+# Dependencies (installed during build)
+node_modules/
+server/node_modules/
+
+# Build outputs
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+server/.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Server (frontend only deployment)
+server/
+
+# Docker files
+Dockerfile*
+docker-compose*
+deploy.sh
+deploy.bat
