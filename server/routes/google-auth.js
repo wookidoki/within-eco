@@ -289,14 +289,14 @@ router.post('/sync-progress', async (req, res) => {
         active_category = EXCLUDED.active_category,
         active_region = EXCLUDED.active_region,
         unlocked_spots = EXCLUDED.unlocked_spots,
-        updated_at = datetime('now')
+        updated_at = NOW()
     `, [
       payload.userId,
       gameData.user?.level || 1,
       gameData.user?.xp || 0,
       gameData.user?.xpToNextLevel || 100,
       gameData.user?.totalStamps || 0,
-      gameData.hasCompletedOnboarding ? 1 : 0,  // boolean -> integer
+      gameData.hasCompletedOnboarding ? true : false,
       gameData.activeCategory || 'ALL',
       gameData.activeRegion || 'ALL',
       JSON.stringify(gameData.unlockedSpots || [])

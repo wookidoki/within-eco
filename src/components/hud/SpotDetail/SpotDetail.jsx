@@ -499,7 +499,7 @@ const SpotDetail = () => {
                   {photos.map((photo) => (
                     <PhotoItem key={photo.id}>
                       <img
-                        src={`${import.meta.env.VITE_API_URL || ''}/uploads/${photo.filename}`}
+                        src={photo.url}
                         alt={photo.caption || '스팟 사진'}
                       />
                       {photo.caption && <span>{photo.caption}</span>}

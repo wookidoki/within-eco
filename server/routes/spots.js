@@ -1,6 +1,7 @@
 import { Router } from 'express'
 import { query } from '../config/database.js'
 import { verifyToken } from './google-auth.js'
+import { uploadFile, getPhotoUrl } from '../config/storage.js'
 import multer from 'multer'
 import path from 'path'
 import { fileURLToPath } from 'url'
@@ -187,7 +188,7 @@ router.get('/:spotId/photos', async (req, res) => {
 
   try {
     const result = await query(`
-      SELECT p.id, p.filename, p.caption, p.created_at,
+      SELECT p.id, p.filename, p.s3_key, p.url, p.caption, p.created_at,
              u.id as user_id, u.name as user_name, u.avatar_url as user_avatar
       FROM photos p
       JOIN users u ON p.user_id = u.id
@@ -199,7 +200,7 @@ router.get('/:spotId/photos', async (req, res) => {
     res.json({
       photos: result.rows.map(p => ({
         id: p.id,
-        url: `/uploads/${p.filename}`,
+        url: getPhotoUrl(p),
         caption: p.caption,
         createdAt: p.created_at,
         user: {
@@ -229,9 +230,12 @@ router.post('/:spotId/photos', authMiddleware, upload.single('photo'), async (re
   }
 
   try {
+    // storage 모듈로 업로드 처리 (S3 or local)
+    const { url, s3Key } = await uploadFile(req.file)
+
     const result = await query(`
-      INSERT INTO photos (user_id, spot_id, filename, original_name, mime_type, file_size, caption)
-      VALUES ($1, $2, $3, $4, $5, $6, $7)
+      INSERT INTO photos (user_id, spot_id, filename, original_name, mime_type, file_size, caption, s3_key, url)
+      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
       RETURNING *
     `, [
       userId,
@@ -240,12 +244,14 @@ router.post('/:spotId/photos', authMiddleware, upload.single('photo'), async (re
       req.file.originalname,
       req.file.mimetype,
       req.file.size,
-      caption
+      caption,
+      s3Key,
+      url,
     ])
 
     res.status(201).json({
       id: result.rows[0]?.id,
-      url: `/uploads/${req.file.filename}`,
+      url,
       caption
     })
   } catch (error) {

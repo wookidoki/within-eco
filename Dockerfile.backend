@@ -3,9 +3,6 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-# Install build dependencies for better-sqlite3
-RUN apk add --no-cache python3 make g++
-
 # Copy server package files
 COPY server/package*.json ./
 
@@ -15,8 +12,8 @@ RUN npm ci --only=production
 # Copy server code
 COPY server/ ./
 
-# Create directories for data and uploads
-RUN mkdir -p /app/data /app/uploads
+# Create directories for uploads
+RUN mkdir -p /app/uploads
 
 # Set environment variables
 ENV NODE_ENV=production
@@ -26,7 +23,7 @@ ENV PORT=8000
 EXPOSE 8000
 
 # Health check
-HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 \
   CMD wget --no-verbose --tries=1 --spider http://localhost:8000/api/health || exit 1
 
 CMD ["node", "index.js"]

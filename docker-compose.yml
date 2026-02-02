@@ -29,21 +29,49 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=8000
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-within}:${POSTGRES_PASSWORD:-within}@postgres:5432/${POSTGRES_DB:-within}
       - FRONTEND_URL=${FRONTEND_URL:-http://localhost}
       - GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
       - GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET}
       - GOOGLE_REDIRECT_URI=${GOOGLE_REDIRECT_URI:-http://localhost/api/auth/google/callback}
       - JWT_SECRET=${JWT_SECRET:-change-this-secret-in-production}
+      - ADMIN_JWT_SECRET=${ADMIN_JWT_SECRET:-change-this-admin-secret}
       - SESSION_EXPIRY_HOURS=${SESSION_EXPIRY_HOURS:-168}
+      - STORAGE_MODE=${STORAGE_MODE:-local}
+      - S3_BUCKET=${S3_BUCKET:-}
+      - S3_REGION=${S3_REGION:-ap-northeast-2}
     volumes:
-      - sqlite-data:/app/data
       - uploads-data:/app/uploads
+    depends_on:
+      postgres:
+        condition: service_healthy
     healthcheck:
       test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8000/api/health"]
       interval: 30s
       timeout: 10s
-      start_period: 10s
+      start_period: 15s
       retries: 3
+    networks:
+      - within-network
+
+  # Database - PostgreSQL
+  postgres:
+    image: postgres:15-alpine
+    container_name: within-postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER:-within}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-within}
+      - POSTGRES_DB=${POSTGRES_DB:-within}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./server/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-within}"]
+      interval: 10s
+      timeout: 5s
+      start_period: 10s
+      retries: 5
     networks:
       - within-network
 
@@ -52,7 +80,7 @@ networks:
     driver: bridge
 
 volumes:
-  sqlite-data:
+  postgres-data:
     driver: local
   uploads-data:
     driver: local

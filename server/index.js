@@ -63,7 +63,7 @@ app.get('/api/health', async (req, res) => {
 
   try {
     const dbCheck = await checkConnection()
-    dbStatus = dbCheck.connected ? 'connected (SQLite)' : `error: ${dbCheck.error}`
+    dbStatus = dbCheck.connected ? 'connected (PostgreSQL)' : `error: ${dbCheck.error}`
   } catch (err) {
     dbStatus = `error: ${err.message}`
   }
@@ -111,7 +111,7 @@ app.listen(PORT, () => {
   console.log('='.repeat(50))
   console.log(`  URL: http://localhost:${PORT}`)
   console.log(`  Frontend: ${process.env.FRONTEND_URL || 'http://localhost:5173'}`)
-  console.log(`  Database: SQLite (local)`)
+  console.log(`  Database: PostgreSQL`)
   console.log(`  Google OAuth: ${process.env.GOOGLE_CLIENT_ID && !process.env.GOOGLE_CLIENT_ID.includes('your-') ? 'Configured' : 'Not configured'}`)
   console.log('='.repeat(50))
   console.log('')
