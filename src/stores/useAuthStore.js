@@ -252,7 +252,7 @@ const useAuthStore = create(
       getDisplayName: () => {
         const { user } = get()
         if (!user) return '탐험가'
-        return user.nickname || user.name || user.email?.split('@')[0] || '탐험가'
+        return user.email?.split('@')[0] || user.name || '탐험가'
       },
     }),
     {

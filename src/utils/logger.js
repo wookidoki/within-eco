@@ -114,7 +114,7 @@ const logger = {
       logger.info('진행상황 저장 중...', null, false)
     },
     syncSuccess: () => {
-      logger.success('클라우드에 저장되었습니다', null, true)
+      logger.success('클라우드에 저장되었습니다', null, false)
     },
     syncError: (error) => {
       logger.error('저장 실패', error, true)
