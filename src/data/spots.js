@@ -79,53 +79,83 @@ function haversineMeters(lat1, lng1, lat2, lng2) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
 }
 
-// Spatial hash 클러스터링: 500m 이내 같은 카테고리 스팟을 하나로 묶음
-function clusterNearbySpots(spots, radiusMeters = 500) {
-  const CELL_LAT = radiusMeters / 111000
-  const CELL_LNG = radiusMeters / (111000 * Math.cos(37.4 * Math.PI / 180))
+// Spatial hash 클러스터링 (3x3 인접 셀 검사로 경계 누락 방지)
+function clusterByProximity(spots, radiusMeters, sameCategory) {
+  const CELL_SIZE = radiusMeters / 111000
+  const CELL_LNG_FACTOR = Math.cos(37.4 * Math.PI / 180)
 
-  // 카테고리+그리드셀 기준으로 분류
+  // 공간 인덱스 구축
   const grid = new Map()
   for (const spot of spots) {
     if (!spot.location?.lat || !spot.location?.lng) continue
-    const cellKey = `${Math.floor(spot.location.lat / CELL_LAT)}_${Math.floor(spot.location.lng / CELL_LNG)}_${spot.category}`
-    if (!grid.has(cellKey)) grid.set(cellKey, [])
-    grid.get(cellKey).push(spot)
+    const cx = Math.floor(spot.location.lat / CELL_SIZE)
+    const cy = Math.floor(spot.location.lng / (CELL_SIZE / CELL_LNG_FACTOR))
+    const key = `${cx}_${cy}`
+    if (!grid.has(key)) grid.set(key, [])
+    grid.get(key).push(spot)
   }
 
-  const result = []
   const used = new Set()
+  const result = []
 
-  for (const [, cellSpots] of grid) {
-    // 점수 높은 순 정렬
-    cellSpots.sort((a, b) => (b.scores?.total || 0) - (a.scores?.total || 0))
+  // 점수 높은 스팟이 대표가 됨
+  const sorted = [...spots]
+    .filter(s => s.location?.lat && s.location?.lng)
+    .sort((a, b) => (b.scores?.total || 0) - (a.scores?.total || 0))
 
-    for (const spot of cellSpots) {
-      if (used.has(spot.id)) continue
+  for (const spot of sorted) {
+    if (used.has(spot.id)) continue
 
-      const nearby = []
-      for (const other of cellSpots) {
-        if (used.has(other.id) || other.id === spot.id) continue
-        const dist = haversineMeters(
-          spot.location.lat, spot.location.lng,
-          other.location.lat, other.location.lng
-        )
-        if (dist <= radiusMeters) {
-          nearby.push(other)
-          used.add(other.id)
+    const cx = Math.floor(spot.location.lat / CELL_SIZE)
+    const cy = Math.floor(spot.location.lng / (CELL_SIZE / CELL_LNG_FACTOR))
+
+    const nearby = []
+
+    // 3x3 인접 셀 검사
+    for (let dx = -1; dx <= 1; dx++) {
+      for (let dy = -1; dy <= 1; dy++) {
+        const neighbors = grid.get(`${cx + dx}_${cy + dy}`)
+        if (!neighbors) continue
+
+        for (const other of neighbors) {
+          if (used.has(other.id) || other.id === spot.id) continue
+          if (sameCategory && other.category !== spot.category) continue
+
+          const dist = haversineMeters(
+            spot.location.lat, spot.location.lng,
+            other.location.lat, other.location.lng
+          )
+          if (dist <= radiusMeters) {
+            nearby.push(other)
+            used.add(other.id)
+          }
         }
       }
-
-      used.add(spot.id)
-      result.push({
-        ...spot,
-        clusterCount: nearby.length,
-        clusterIds: nearby.map(n => n.id),
-      })
     }
+
+    used.add(spot.id)
+
+    // 흡수된 스팟의 클러스터 정보 누적
+    const absorbedIds = nearby.flatMap(n => [n.id, ...(n.clusterIds || [])])
+    const absorbedCount = nearby.reduce((sum, n) => sum + 1 + (n.clusterCount || 0), 0)
+
+    result.push({
+      ...spot,
+      clusterCount: (spot.clusterCount || 0) + absorbedCount,
+      clusterIds: [...(spot.clusterIds || []), ...absorbedIds],
+    })
   }
 
   return result
+}
+
+// 2단계 클러스터링:
+// Pass 1: 같은 카테고리 1km 이내 → 묶음
+// Pass 2: 다른 카테고리라도 300m 이내 → 같은 장소로 묶음
+function clusterNearbySpots(spots) {
+  const pass1 = clusterByProximity(spots, 1000, true)
+  const pass2 = clusterByProximity(pass1, 300, false)
+  return pass2
 }
 
 // Step 1: 변환 (displayName, ecoScores, ecoStats 매핑)
@@ -146,8 +176,8 @@ const transformedSpots = rawSpots.map(spot => ({
   bestSeason: spot.bestSeason || ['ALL'],
 }))
 
-// Step 2: 근접 클러스터링
-export const ecoSpots = clusterNearbySpots(transformedSpots, 500)
+// Step 2: 2단계 근접 클러스터링 (같은 카테고리 1km + 다른 카테고리 300m)
+export const ecoSpots = clusterNearbySpots(transformedSpots)
 
 export function getCurrentSeason() {
   const month = new Date().getMonth() + 1
