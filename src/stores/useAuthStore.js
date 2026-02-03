@@ -4,7 +4,7 @@ import apiClient from '../api/client'
 import logger from '../utils/logger'
 import { generateNickname } from '../utils/nickname'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const API_URL = import.meta.env.VITE_API_URL || ''
 
 /**
  * 인증 상태 관리 스토어
