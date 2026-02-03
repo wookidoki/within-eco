@@ -1,7 +1,8 @@
 import { useMemo } from 'react'
 import { useGameStore } from '../../../stores'
 import { ecoSpots } from '../../../data/spots'
-import { BADGES, getCurrentTitle, getUnlockedBadges } from '../../../data/badges'
+import { BADGES, getUnlockedBadges } from '../../../data/badges'
+import { getLevelInfo } from '../../../data/achievements'
 import {
   Container,
   WelcomeSection,
@@ -49,27 +50,28 @@ const UserStats = () => {
     [gameState]
   )
 
-  const currentTitle = useMemo(
-    () => getCurrentTitle(unlockedBadges.length),
-    [unlockedBadges.length]
+  const levelInfo = useMemo(
+    () => getLevelInfo(user.totalXp || 0),
+    [user.totalXp]
   )
 
   // 표시할 뱃지 (해금된 것 먼저, 최대 6개)
+  const allBadges = useMemo(() => Object.values(BADGES), [])
   const displayBadges = useMemo(() => {
-    const locked = BADGES.filter(b => !unlockedBadges.find(u => u.id === b.id))
+    const locked = allBadges.filter(b => !unlockedBadges.find(u => u.id === b.id))
     const sorted = [...unlockedBadges, ...locked.slice(0, 6 - unlockedBadges.length)]
     return sorted.slice(0, 6).map(badge => ({
       ...badge,
       unlocked: unlockedBadges.some(u => u.id === badge.id),
     }))
-  }, [unlockedBadges])
+  }, [unlockedBadges, allBadges])
 
   return (
     <Container>
       <WelcomeSection>
-        <WelcomeEmoji>{currentTitle.emoji}</WelcomeEmoji>
+        <WelcomeEmoji>🌱</WelcomeEmoji>
         <div>
-          <WelcomeText>{currentTitle.name}</WelcomeText>
+          <WelcomeText>{levelInfo.title}</WelcomeText>
           <WelcomeSubtext>🏅 뱃지 {unlockedBadges.length}개 획득</WelcomeSubtext>
         </div>
       </WelcomeSection>
@@ -110,7 +112,7 @@ const UserStats = () => {
       </ProgressSection>
 
       <AchievementSection>
-        <AchievementTitle>🎖️ 뱃지 ({unlockedBadges.length}/{BADGES.length})</AchievementTitle>
+        <AchievementTitle>🎖️ 뱃지 ({unlockedBadges.length}/{allBadges.length})</AchievementTitle>
         <AchievementList>
           {displayBadges.map((badge) => (
             <AchievementItem key={badge.id} $unlocked={badge.unlocked} title={badge.description}>
