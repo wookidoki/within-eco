@@ -1,6 +1,5 @@
 import { useState, useCallback, useEffect, useMemo, useRef } from 'react'
-import { APIProvider, Map, AdvancedMarker, InfoWindow, useMap } from '@vis.gl/react-google-maps'
-import { MarkerClusterer } from '@googlemaps/markerclusterer'
+import { APIProvider, Map, Marker, AdvancedMarker, InfoWindow, useMap } from '@vis.gl/react-google-maps'
 import { useThemeStore, useGameStore } from '../../../stores'
 import { ecoSpots, CATEGORIES } from '../../../data/spots'
 import Spinner from '../../common/Spinner'
@@ -66,12 +65,18 @@ const CurrentLocationPin = ({ position }) => {
   if (!position) return null
 
   return (
-    <AdvancedMarker position={position}>
-      <CurrentLocationMarker>
-        <div className="pulse" />
-        <div className="dot" />
-      </CurrentLocationMarker>
-    </AdvancedMarker>
+    <Marker
+      position={position}
+      icon={{
+        path: 0, // google.maps.SymbolPath.CIRCLE
+        scale: 10,
+        fillColor: '#4285F4',
+        fillOpacity: 1,
+        strokeColor: '#fff',
+        strokeWeight: 3,
+      }}
+      zIndex={999}
+    />
   )
 }
 
@@ -199,21 +204,22 @@ const SpotMarkers = ({ currentLocation }) => {
       {visibleSpots.map((spot) => {
         const category = CATEGORIES[spot.category]
         const isUnlocked = isSpotUnlocked(spot.id)
+        const size = markerSize === 'large' ? 10 : markerSize === 'medium' ? 7 : 5
 
         return (
-          <AdvancedMarker
+          <Marker
             key={spot.id}
             position={spot.location}
             onClick={() => handleMarkerClick(spot)}
-          >
-            <MarkerDot
-              $color={category?.color || '#00FF94'}
-              $isUnlocked={isUnlocked}
-              $size={markerSize}
-            >
-              {markerSize !== 'small' && <MarkerPulse $color={category?.color || '#00FF94'} />}
-            </MarkerDot>
-          </AdvancedMarker>
+            icon={{
+              path: 0, // google.maps.SymbolPath.CIRCLE
+              scale: size,
+              fillColor: category?.color || '#00FF94',
+              fillOpacity: isUnlocked ? 1 : 0.6,
+              strokeColor: isUnlocked ? '#FFD700' : '#fff',
+              strokeWeight: 2,
+            }}
+          />
         )
       })}
 

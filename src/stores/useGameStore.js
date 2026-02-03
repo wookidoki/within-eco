@@ -176,12 +176,7 @@ const useGameStore = create(
 
         // 지역 필터
         if (activeRegion !== 'ALL') {
-          // 특정 지역 선택 시: 해당 지역의 모든 스팟 표시
           spots = spots.filter((spot) => spot.region === activeRegion)
-        } else {
-          // 전체 선택 시: 우선순위 스팟만 표시 (성능 최적화)
-          // 우선순위 스팟 = 도립/군립공원, 국가하천, 특별보호구역 등
-          spots = getPrioritySpots()
         }
 
         // 카테고리 필터
