@@ -56,16 +56,81 @@ export const SEASONS = {
 const GENERIC_NAMES = new Set([
   '문화체육시설', '문화시설', '근린 및 주제공원', '체육시설',
   '공공시설', '공공휴양녹지', '습지', '완충녹지', '경관녹지',
-  '공공청사', '생태보호구역',
+  '공공청사', '생태보호구역', '벼논 습지', '벼논 습지 보호지역',
+  '다른 나 녹지공간', '다른언어 나 숲속공간',
 ])
 
+// description에서 위치·면적 추출
+function parseDescription(desc) {
+  if (!desc) return { loc: null, areaSqm: null }
+
+  // 면적: "약 1.5ha", "약 6.6km2" 등
+  let areaSqm = null
+  const km = desc.match(/약\s*([\d.]+)\s*km/)
+  const ha = desc.match(/약\s*([\d.]+)\s*ha/)
+  if (km) areaSqm = parseFloat(km[1]) * 1000000
+  else if (ha) areaSqm = parseFloat(ha[1]) * 10000
+
+  // 위치: "안양시 만안구", "음성군 음성면", "안산시 소재" 등
+  // 가장 구체적인 하위 행정구역(구/군/읍/면/동)을 추출
+  const subMatch = desc.match(/([가-힣]+[시군])\s+([가-힣]+[구읍면동])/)
+  const siMatch = desc.match(/([가-힣]+[시군])\s/)
+
+  let loc = null
+  if (subMatch) loc = { si: subMatch[1], sub: subMatch[2] }
+  else if (siMatch) loc = { si: siMatch[1], sub: null }
+
+  return { loc, areaSqm }
+}
+
+// 면적 포맷 (사람이 읽기 좋은 단위)
+function formatArea(sqm) {
+  if (!sqm || sqm <= 0) return null
+  if (sqm >= 1000000) return `${(sqm / 1000000).toFixed(1)}km²`
+  if (sqm >= 10000) return `${(sqm / 10000).toFixed(1)}ha`
+  return `${Math.round(sqm).toLocaleString()}m²`
+}
+
 // 일반명을 의미 있는 표시명으로 변환
+// 우선순위: 역지오코딩 주소 > description 파싱 > district > type만
 function resolveDisplayName(spot) {
+  // 이미 고유명사면 그대로 유지
   if (!GENERIC_NAMES.has(spot.name)) return spot.name
-  const district = spot.district || ''
-  if (district) return `${district} ${spot.type || spot.name}`
-  const idNum = spot.id?.split('.').pop() || ''
-  return `${spot.type || spot.name} #${idNum}`
+
+  const type = spot.type || spot.name
+  const desc = parseDescription(spot.description)
+  const area = spot.area_sqm || desc.areaSqm
+  const areaStr = formatArea(area)
+
+  // 1. 역지오코딩 주소가 있으면 최우선 (Step 2에서 추가됨)
+  if (spot.neighborhood) {
+    const base = `${spot.neighborhood} ${type}`
+    return areaStr ? `${base} (${areaStr})` : base
+  }
+
+  // 2. district 필드가 있으면 사용
+  if (spot.district) {
+    // description에서 더 구체적인 하위 행정구역 추출 시도
+    if (desc.loc?.sub) {
+      const base = `${desc.loc.sub} ${type}`
+      return areaStr ? `${base} (${areaStr})` : base
+    }
+    const base = `${spot.district} ${type}`
+    return areaStr ? `${base} (${areaStr})` : base
+  }
+
+  // 3. description에서 위치 추출
+  if (desc.loc) {
+    const locName = desc.loc.sub || desc.loc.si
+    const base = `${locName} ${type}`
+    return areaStr ? `${base} (${areaStr})` : base
+  }
+
+  // 4. 면적이라도 있으면 표시
+  if (areaStr) return `${type} (${areaStr})`
+
+  // 5. 최후 수단
+  return type
 }
 
 // Haversine 거리 계산 (미터)
@@ -158,10 +223,15 @@ function clusterNearbySpots(spots) {
   return pass2
 }
 
-// Step 1: 변환 (displayName, ecoScores, ecoStats 매핑)
-const transformedSpots = rawSpots.map(spot => ({
+// Step 1: 변환 (displayName, areaDisplay, ecoScores, ecoStats 매핑)
+const transformedSpots = rawSpots.map(spot => {
+  const desc = parseDescription(spot.description)
+  const areaSqm = spot.area_sqm || desc.areaSqm || 0
+  return {
   ...spot,
   displayName: resolveDisplayName(spot),
+  areaDisplay: formatArea(areaSqm),
+  areaSqm,
   region: spot.region || spot.district || '',
   address: spot.address || '',
   mission: spot.mission || { reward: Math.max(10, Math.round((spot.scores?.total || 30) * 0.8)), description: `${spot.name} 방문하기` },
@@ -174,7 +244,7 @@ const transformedSpots = rawSpots.map(spot => ({
   ecoStats: spot.ecoStats || { score: spot.scores?.total || 0 },
   thumbnail: spot.thumbnail || CATEGORIES[spot.category]?.emoji || '📍',
   bestSeason: spot.bestSeason || ['ALL'],
-}))
+}})
 
 // Step 2: 2단계 근접 클러스터링 (같은 카테고리 1km + 다른 카테고리 300m)
 export const ecoSpots = clusterNearbySpots(transformedSpots)
