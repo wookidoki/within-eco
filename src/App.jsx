@@ -109,25 +109,7 @@ function App() {
     init()
   }, [loginSuccess])
 
-  // ===================
-  // 온보딩 후 로그인 모달 표시
-  // ===================
-  useEffect(() => {
-    if (
-      isInitialized &&
-      hasCompletedOnboarding &&
-      !isAuthenticated &&
-      !showLoginModal &&
-      !hasSkippedLogin &&
-      !isCallbackRoute
-    ) {
-      // 온보딩 애니메이션 완료 후 표시
-      const timer = setTimeout(() => {
-        setShowLoginModal(true)
-      }, 500)
-      return () => clearTimeout(timer)
-    }
-  }, [isInitialized, hasCompletedOnboarding, isAuthenticated, hasSkippedLogin, isCallbackRoute, showLoginModal])
+  // 로그인 모달은 사용자가 직접 요청할 때만 표시 (자동 팝업 안 함)
 
   // ===================
   // 게임 진행상황 자동 동기화

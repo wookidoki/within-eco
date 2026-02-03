@@ -77,7 +77,7 @@ const ExplorationLog = ({ onStartExploring }) => {
               <EntryHeader>
                 <EntryEmoji>{spot.thumbnail}</EntryEmoji>
                 <EntryInfo>
-                  <EntryName>{spot.name}</EntryName>
+                  <EntryName>{spot.displayName || spot.name}</EntryName>
                   <EntryDate>{dateStr} 방문</EntryDate>
                 </EntryInfo>
               </EntryHeader>
@@ -89,7 +89,7 @@ const ExplorationLog = ({ onStartExploring }) => {
                   {region?.emoji} {region?.name}
                 </MetaTag>
                 <MetaTag $color="#00FF94">
-                  +{spot.mission.reward} XP
+                  +{spot.mission?.reward || 0} XP
                 </MetaTag>
               </EntryMeta>
             </LogEntry>

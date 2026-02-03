@@ -149,11 +149,13 @@ const useGameStore = create(
         const normalizedQuery = query.toLowerCase().trim()
         const results = ecoSpots.filter((spot) => {
           const name = spot.name?.toLowerCase() || ''
+          const displayName = spot.displayName?.toLowerCase() || ''
           const district = spot.district?.toLowerCase() || ''
           const type = spot.type?.toLowerCase() || ''
           const address = spot.address?.toLowerCase() || ''
 
           return name.includes(normalizedQuery) ||
+                 displayName.includes(normalizedQuery) ||
                  district.includes(normalizedQuery) ||
                  type.includes(normalizedQuery) ||
                  address.includes(normalizedQuery)
@@ -375,7 +377,7 @@ const useGameStore = create(
             {
               spotId,
               visitedAt: new Date().toISOString(),
-              spotName: spot.name,
+              spotName: spot.displayName || spot.name,
               category: spot.category,
             },
             ...visitHistory,

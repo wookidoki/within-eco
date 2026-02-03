@@ -85,7 +85,7 @@ const TopBar = () => {
     .filter(r => r.id === 'ALL' || getRegionCount(r.id) > 0)
 
   // 사용할 카테고리 (기본 카테고리만)
-  const mainCategories = ['ALL', 'nature', 'water', 'ecology'].map(id => CATEGORIES[id])
+  const mainCategories = ['ALL', 'nature', 'water', 'ecology'].map(id => ({ ...CATEGORIES[id], id }))
 
   // 클라우드 동기화
   const handleSync = async () => {

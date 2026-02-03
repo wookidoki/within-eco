@@ -39,9 +39,9 @@ const SpotCard = ({ spot, isUnlocked, onClick }) => {
 
       <Content>
         <Header>
-          <Name>{spot.name}</Name>
+          <Name>{spot.displayName || spot.name}</Name>
           <Score>
-            💾 {spot.ecoStats.score}
+            💾 {spot.ecoStats?.score || 0}
           </Score>
         </Header>
 

@@ -289,7 +289,7 @@ const SpotDetailPage = ({ spot, onClose }) => {
             <CategoryBadge $color={category.color}>
               {category.emoji} {category.label}
             </CategoryBadge>
-            <Title>{spot.name}</Title>
+            <Title>{spot.displayName || spot.name}</Title>
             <Address>
               <FiMapPin size={14} />
               {spot.address || `${spot.district || ''} ${spot.type || ''}`}
@@ -348,24 +348,20 @@ const SpotDetailPage = ({ spot, onClose }) => {
                 <StatLabel>생태점수</StatLabel>
               </StatCard>
               <StatCard>
-                <StatValue>{ecoStats.temperatureGap || '-'}</StatValue>
-                <StatLabel>온도 저감</StatLabel>
+                <StatValue>{spot.scores?.area || '-'}</StatValue>
+                <StatLabel>면적 규모</StatLabel>
               </StatCard>
               <StatCard>
-                <StatValue>{ecoStats.carbonStorage || ecoStats.carbonOffset || '-'}</StatValue>
-                <StatLabel>탄소 저장</StatLabel>
+                <StatValue>{spot.scores?.accessibility || '-'}</StatValue>
+                <StatLabel>접근성</StatLabel>
               </StatCard>
               <StatCard>
-                <StatValue>{ecoStats.airQuality || '-'}</StatValue>
-                <StatLabel>대기질</StatLabel>
+                <StatValue>{spot.scores?.uniqueness || '-'}</StatValue>
+                <StatLabel>고유성</StatLabel>
               </StatCard>
               <StatCard>
-                <StatValue>{ecoStats.waterQuality || '-'}</StatValue>
-                <StatLabel>수질</StatLabel>
-              </StatCard>
-              <StatCard>
-                <StatValue>{ecoStats.biodiversity || '-'}</StatValue>
-                <StatLabel>생물다양성</StatLabel>
+                <StatValue>{spot.scores?.total || '-'}</StatValue>
+                <StatLabel>종합 점수</StatLabel>
               </StatCard>
             </StatsGrid>
 

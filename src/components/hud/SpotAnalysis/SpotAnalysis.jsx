@@ -129,7 +129,7 @@ const SpotAnalysis = ({ spot }) => {
 
   const category = CATEGORIES[spot.category]
   const isUnlocked = isSpotUnlocked(spot.id)
-  const { ecoStats } = spot
+  const ecoStats = spot.ecoStats || { score: 0 }
 
   // 실제 데이터에서 값 추출
   const metrics = parseEcoStats(ecoStats, spot.area_sqm)
@@ -163,7 +163,7 @@ const SpotAnalysis = ({ spot }) => {
       <SpotInfo>
         <SpotEmoji>{spot.thumbnail}</SpotEmoji>
         <SpotDetails>
-          <SpotName>{spot.name}</SpotName>
+          <SpotName>{spot.displayName || spot.name}</SpotName>
           <SpotAddress>
             <FiMapPin size={12} />
             {spot.address}

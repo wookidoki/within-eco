@@ -85,12 +85,12 @@ const CollectionModal = () => {
                     {/* 해금 상태 (뒷면) */}
                     <CardBack $color={category.color}>
                       <CardEmoji>{spot.thumbnail}</CardEmoji>
-                      <CardName>{spot.name}</CardName>
+                      <CardName>{spot.displayName || spot.name}</CardName>
                       <CardCategory $color={category.color}>
                         {category.emoji} {category.label}
                       </CardCategory>
                       <CardScore>
-                        💾 {spot.ecoStats.score}점
+                        💾 {spot.ecoStats?.score || 0}점
                       </CardScore>
                     </CardBack>
                   </CardInner>

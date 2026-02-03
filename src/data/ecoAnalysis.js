@@ -44,7 +44,7 @@ export function calculateEnvironmentalImpact(spot) {
   const scores = spot.scores || {}
 
   return {
-    spotName: spot.name,
+    spotName: spot.displayName || spot.name,
     category: spot.category,
     totalScore: scores.total || 0,
     areaScore: scores.area || 0,

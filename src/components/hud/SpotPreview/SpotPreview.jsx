@@ -77,7 +77,7 @@ const SpotPreview = () => {
       </PreviewHeader>
 
       <PreviewBody>
-        <SpotName>{selectedSpot.name}</SpotName>
+        <SpotName>{selectedSpot.displayName || selectedSpot.name}</SpotName>
         <SpotType>{selectedSpot.type}</SpotType>
 
         <SpotMeta>

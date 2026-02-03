@@ -1,13 +1,11 @@
 import { useState, useCallback, useEffect, useMemo, useRef } from 'react'
-import { APIProvider, Map, Marker, AdvancedMarker, InfoWindow, useMap } from '@vis.gl/react-google-maps'
+import { APIProvider, Map, Marker, InfoWindow, useMap } from '@vis.gl/react-google-maps'
 import { useThemeStore, useGameStore } from '../../../stores'
 import { ecoSpots, CATEGORIES } from '../../../data/spots'
 import Spinner from '../../common/Spinner'
 import logger from '../../../utils/logger'
 import {
   MapWrapper,
-  MarkerDot,
-  MarkerPulse,
   InfoWindowContent,
   InfoHeader,
   InfoThumbnail,
@@ -22,8 +20,6 @@ import {
   EcoBarFill,
   InfoSummary,
   InfoButton,
-  CurrentLocationMarker,
-  ClusterMarker
 } from './MapContainer.styles'
 
 const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY
@@ -35,7 +31,7 @@ const INITIAL_CENTER = {
   lng: 127.1,
 }
 
-// 3D 메타버스 뷰 설정
+// 카메라 설정
 const CAMERA_CONFIG = {
   zoom: 10,
   tilt: 45,
@@ -54,10 +50,30 @@ const GYEONGGI_BOUNDS = {
 
 // 줌 레벨에 따른 최대 마커 수
 const getMaxMarkersByZoom = (zoom) => {
-  if (zoom >= 14) return 500
-  if (zoom >= 12) return 200
-  if (zoom >= 10) return 100
-  return 50
+  if (zoom >= 14) return 800
+  if (zoom >= 12) return 400
+  if (zoom >= 10) return 200
+  return 80
+}
+
+// SVG 마커 아이콘 생성
+function buildMarkerSvg(emoji, color, strokeColor, opacity, radius) {
+  const size = radius * 2
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">` +
+    `<circle cx="${radius}" cy="${radius}" r="${radius - 2}" fill="${color}" fill-opacity="${opacity}" stroke="${strokeColor}" stroke-width="2.5"/>` +
+    `<text x="${radius}" y="${radius + 1}" text-anchor="middle" dominant-baseline="middle" font-size="${radius * 0.9}">${emoji}</text>` +
+    `</svg>`
+}
+
+function buildClusterSvg(emoji, color, count, radius) {
+  const w = radius * 2 + 14
+  const h = radius * 2 + 4
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">` +
+    `<circle cx="${radius}" cy="${radius + 2}" r="${radius - 1}" fill="${color}" fill-opacity="0.85" stroke="white" stroke-width="2"/>` +
+    `<text x="${radius}" y="${radius + 3}" text-anchor="middle" dominant-baseline="middle" font-size="${radius * 0.8}">${emoji}</text>` +
+    `<circle cx="${radius * 2 + 4}" cy="9" r="9" fill="#FF3B30" stroke="white" stroke-width="1.5"/>` +
+    `<text x="${radius * 2 + 4}" y="10" text-anchor="middle" dominant-baseline="middle" font-size="10" font-weight="bold" fill="white">${count > 99 ? '99+' : count}</text>` +
+    `</svg>`
 }
 
 // 현위치 마커 컴포넌트
@@ -68,12 +84,14 @@ const CurrentLocationPin = ({ position }) => {
     <Marker
       position={position}
       icon={{
-        path: 0, // google.maps.SymbolPath.CIRCLE
-        scale: 10,
-        fillColor: '#4285F4',
-        fillOpacity: 1,
-        strokeColor: '#fff',
-        strokeWeight: 3,
+        url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(
+          `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">` +
+          `<circle cx="12" cy="12" r="8" fill="#4285F4" fill-opacity="0.3" stroke="#4285F4" stroke-width="2"/>` +
+          `<circle cx="12" cy="12" r="5" fill="#4285F4"/>` +
+          `</svg>`
+        ),
+        scaledSize: { width: 24, height: 24 },
+        anchor: { x: 12, y: 12 },
       }}
       zIndex={999}
     />
@@ -110,7 +128,7 @@ const SpotMarkers = ({ currentLocation }) => {
     }
   }, [map, navigateToSpot, clearNavigateToSpot])
 
-  // 필터된 스팟을 useMemo로 캐싱 (무한 루프 방지)
+  // 필터된 스팟을 useMemo로 캐싱
   const filteredSpots = useMemo(() => {
     return getFilteredSpots()
   }, [activeCategory, activeRegion])
@@ -129,7 +147,6 @@ const SpotMarkers = ({ currentLocation }) => {
         return
       }
 
-      // 뷰포트 내 스팟 필터링
       const inBounds = filteredSpots.filter(spot => {
         const lat = spot.location?.lat
         const lng = spot.location?.lng
@@ -137,16 +154,12 @@ const SpotMarkers = ({ currentLocation }) => {
         return bounds.contains({ lat, lng })
       })
 
-      // 줌 레벨에 따라 마커 수 제한
       const maxMarkers = getMaxMarkersByZoom(currentZoom)
 
-      // 우선순위: famous > 높은 생태점수 > 나머지
       const sorted = [...inBounds].sort((a, b) => {
-        if (a.famous && !b.famous) return -1
-        if (!a.famous && b.famous) return 1
-        const scoreA = a.ecoScores?.total_score || 0
-        const scoreB = b.ecoScores?.total_score || 0
-        return scoreB - scoreA
+        if (a.priority && !b.priority) return -1
+        if (!a.priority && b.priority) return 1
+        return (b.scores?.total || 0) - (a.scores?.total || 0)
       })
 
       setVisibleSpots(sorted.slice(0, maxMarkers))
@@ -191,39 +204,56 @@ const SpotMarkers = ({ currentLocation }) => {
   }
 
   // 줌 레벨에 따른 마커 크기
-  const getMarkerSize = () => {
-    if (zoomRef.current >= 14) return 'large'
-    if (zoomRef.current >= 11) return 'medium'
-    return 'small'
+  const getMarkerRadius = () => {
+    if (zoomRef.current >= 14) return 18
+    if (zoomRef.current >= 11) return 14
+    return 11
   }
 
-  const markerSize = getMarkerSize()
+  // 마커 아이콘 캐시 (useMemo로 rebuild 방지)
+  const markerIcons = useMemo(() => {
+    const radius = getMarkerRadius()
+    const icons = {}
+    for (const spot of visibleSpots) {
+      const category = CATEGORIES[spot.category]
+      const isUnlocked = isSpotUnlocked(spot.id)
+      const emoji = category?.emoji || '📍'
+      const color = category?.color || '#00FF94'
+      const strokeColor = isUnlocked ? '#FFD700' : '#FFFFFF'
+      const opacity = isUnlocked ? 1 : 0.7
+      const count = spot.clusterCount || 0
+
+      let svg
+      if (count > 0) {
+        svg = buildClusterSvg(emoji, color, count + 1, radius)
+      } else {
+        svg = buildMarkerSvg(emoji, color, strokeColor, opacity, radius)
+      }
+
+      const w = count > 0 ? radius * 2 + 14 : radius * 2
+      const h = count > 0 ? radius * 2 + 4 : radius * 2
+
+      icons[spot.id] = {
+        url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg),
+        scaledSize: { width: w, height: h },
+        anchor: { x: radius, y: count > 0 ? radius + 2 : radius },
+      }
+    }
+    return icons
+  }, [visibleSpots, zoomRef.current])
 
   return (
     <>
-      {visibleSpots.map((spot) => {
-        const category = CATEGORIES[spot.category]
-        const isUnlocked = isSpotUnlocked(spot.id)
-        const size = markerSize === 'large' ? 10 : markerSize === 'medium' ? 7 : 5
+      {visibleSpots.map((spot) => (
+        <Marker
+          key={spot.id}
+          position={spot.location}
+          onClick={() => handleMarkerClick(spot)}
+          icon={markerIcons[spot.id]}
+        />
+      ))}
 
-        return (
-          <Marker
-            key={spot.id}
-            position={spot.location}
-            onClick={() => handleMarkerClick(spot)}
-            icon={{
-              path: 0, // google.maps.SymbolPath.CIRCLE
-              scale: size,
-              fillColor: category?.color || '#00FF94',
-              fillOpacity: isUnlocked ? 1 : 0.6,
-              strokeColor: isUnlocked ? '#FFD700' : '#fff',
-              strokeWeight: 2,
-            }}
-          />
-        )
-      })}
-
-      {/* InfoWindow - 환경 정보 팝업 */}
+      {/* InfoWindow - 생태 정보 팝업 */}
       {activeMarker && (
         <InfoWindow
           position={visibleSpots.find(s => s.id === activeMarker)?.location}
@@ -244,13 +274,16 @@ const SpotMarkers = ({ currentLocation }) => {
               }
 
               const getSummary = () => {
-                const temp = eco.temp_reduction || 0
-                const carbon = eco.carbon_storage || 0
+                const total = eco.total_score || 0
+                const uniqueness = eco.uniqueness || 0
 
-                if (temp >= 50 || carbon >= 50) {
-                  return `이 지역은 주변 온도를 약 ${temp.toFixed(0)}% 낮추고, 연간 탄소를 흡수하여 도시 환경 개선에 크게 기여합니다.`
+                if (total >= 50 && uniqueness >= 70) {
+                  return `이 지역은 높은 생태적 고유성과 보전 가치를 가진 주요 생태공간입니다.`
                 }
-                return `이 지역은 생태계 보전과 도시 환경 개선에 기여하고 있습니다.`
+                if (total >= 30) {
+                  return `이 지역은 도시 생태계 보전과 시민 여가에 기여하는 공간입니다.`
+                }
+                return `이 지역은 생태계 서비스를 제공하는 도시 녹지공간입니다.`
               }
 
               return (
@@ -260,47 +293,54 @@ const SpotMarkers = ({ currentLocation }) => {
                       {category?.emoji || '🌿'}
                     </InfoThumbnail>
                     <div>
-                      <InfoTitle>{spot?.name}</InfoTitle>
+                      <InfoTitle>
+                        {spot?.displayName || spot?.name}
+                        {spot?.clusterCount > 0 && (
+                          <span style={{ fontSize: '11px', color: '#00FF94', marginLeft: '6px' }}>
+                            외 {spot.clusterCount}개
+                          </span>
+                        )}
+                      </InfoTitle>
                       <InfoCategory>{spot?.type || category?.label}</InfoCategory>
                       <InfoDistrict>
-                        📍 {spot?.district || '경기도'}
+                        📍 {spot?.district || spot?.region || '경기도'}
                       </InfoDistrict>
                     </div>
                   </InfoHeader>
 
                   <EcoScoreGrid>
                     <EcoScoreItem>
-                      <EcoScoreValue $color={getScoreColor(eco.temp_reduction || 0)}>
-                        {(eco.temp_reduction || 0).toFixed(0)}
+                      <EcoScoreValue $color={getScoreColor(eco.area || 0)}>
+                        {(eco.area || 0).toFixed(0)}
                       </EcoScoreValue>
-                      <EcoScoreLabel>🌡️ 온도 저감</EcoScoreLabel>
+                      <EcoScoreLabel>📐 면적 규모</EcoScoreLabel>
                       <EcoBar>
-                        <EcoBarFill $value={eco.temp_reduction || 0} $color={getScoreColor(eco.temp_reduction || 0)} />
+                        <EcoBarFill $value={eco.area || 0} $color={getScoreColor(eco.area || 0)} />
                       </EcoBar>
                     </EcoScoreItem>
                     <EcoScoreItem>
-                      <EcoScoreValue $color={getScoreColor(eco.carbon_storage || 0)}>
-                        {(eco.carbon_storage || 0).toFixed(0)}
+                      <EcoScoreValue $color={getScoreColor(eco.accessibility || 0)}>
+                        {(eco.accessibility || 0).toFixed(0)}
                       </EcoScoreValue>
-                      <EcoScoreLabel>🌳 탄소 저장</EcoScoreLabel>
+                      <EcoScoreLabel>🚶 접근성</EcoScoreLabel>
                       <EcoBar>
-                        <EcoBarFill $value={eco.carbon_storage || 0} $color={getScoreColor(eco.carbon_storage || 0)} />
+                        <EcoBarFill $value={eco.accessibility || 0} $color={getScoreColor(eco.accessibility || 0)} />
                       </EcoBar>
                     </EcoScoreItem>
                     <EcoScoreItem>
-                      <EcoScoreValue $color={getScoreColor(eco.biodiversity || 0)}>
-                        {(eco.biodiversity || 0).toFixed(0)}
+                      <EcoScoreValue $color={getScoreColor(eco.uniqueness || 0)}>
+                        {(eco.uniqueness || 0).toFixed(0)}
                       </EcoScoreValue>
-                      <EcoScoreLabel>🦋 생물다양성</EcoScoreLabel>
+                      <EcoScoreLabel>💎 고유성</EcoScoreLabel>
                       <EcoBar>
-                        <EcoBarFill $value={eco.biodiversity || 0} $color={getScoreColor(eco.biodiversity || 0)} />
+                        <EcoBarFill $value={eco.uniqueness || 0} $color={getScoreColor(eco.uniqueness || 0)} />
                       </EcoBar>
                     </EcoScoreItem>
                     <EcoScoreItem>
                       <EcoScoreValue $color={getScoreColor(eco.total_score || 0)}>
                         {(eco.total_score || 0).toFixed(0)}
                       </EcoScoreValue>
-                      <EcoScoreLabel>⭐ 생태 가치</EcoScoreLabel>
+                      <EcoScoreLabel>⭐ 종합 점수</EcoScoreLabel>
                       <EcoBar>
                         <EcoBarFill $value={eco.total_score || 0} $color={getScoreColor(eco.total_score || 0)} />
                       </EcoBar>
@@ -333,7 +373,6 @@ const SpotMarkers = ({ currentLocation }) => {
 }
 
 const MapContainer = () => {
-  const map = useMap()
   const [isLoading, setIsLoading] = useState(true)
   const [currentLocation, setCurrentLocation] = useState(null)
   const { isDarkMode } = useThemeStore()
@@ -343,7 +382,6 @@ const MapContainer = () => {
   useEffect(() => {
     const getLocation = () => {
       if (!('geolocation' in navigator)) {
-        logger.warning('이 브라우저는 위치 서비스를 지원하지 않습니다', null, true)
         return
       }
 
@@ -354,7 +392,6 @@ const MapContainer = () => {
             lng: position.coords.longitude,
           }
 
-          // 경기도 영역 체크
           const isInGyeonggi =
             location.lat >= GYEONGGI_BOUNDS.south &&
             location.lat <= GYEONGGI_BOUNDS.north &&
@@ -366,20 +403,10 @@ const MapContainer = () => {
           }
 
           setCurrentLocation(location)
-          setStoreLocation(location)  // store에도 저장
-          console.log('[Map] Location found:', location, 'In Gyeonggi:', isInGyeonggi)
+          setStoreLocation(location)
         },
-        (error) => {
-          console.log('[Map] Geolocation error:', error.code, error.message)
-
-          // 에러 코드별 메시지
-          const errorMessages = {
-            1: '위치 권한이 거부되었습니다. 브라우저 설정에서 위치 권한을 허용해주세요.',
-            2: '위치를 찾을 수 없습니다. GPS 신호를 확인해주세요.',
-            3: '위치 요청 시간이 초과되었습니다.',
-          }
-
-          logger.warning(errorMessages[error.code] || '위치를 찾을 수 없습니다', null, true)
+        () => {
+          // 위치 권한 거부 시 조용히 처리 (지도는 경기도 중심으로 보여줌)
         },
         {
           enableHighAccuracy: true,

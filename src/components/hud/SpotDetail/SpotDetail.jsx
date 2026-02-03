@@ -298,7 +298,7 @@ const SpotDetail = () => {
         </Header>
 
         <SpotEmoji>{selectedSpot.thumbnail || category?.emoji || '🌿'}</SpotEmoji>
-        <SpotName>{selectedSpot.name}</SpotName>
+        <SpotName>{selectedSpot.displayName || selectedSpot.name}</SpotName>
         <SpotAddress>
           <FiMapPin size={14} />
           {selectedSpot.address || `${selectedSpot.region} ${selectedSpot.district || ''}`}
@@ -373,12 +373,12 @@ const SpotDetail = () => {
                     <StatCard>
                       <StatEmoji>🌱</StatEmoji>
                       <StatLabel>탄소 절감</StatLabel>
-                      <StatValue>{selectedSpot.ecoStats.carbonOffset || '-'}</StatValue>
+                      <StatValue>{selectedSpot.ecoStats?.carbonOffset || '-'}</StatValue>
                     </StatCard>
                     <StatCard>
                       <StatEmoji>🌡️</StatEmoji>
                       <StatLabel>온도 효과</StatLabel>
-                      <StatValue>{selectedSpot.ecoStats.temperatureGap || selectedSpot.ecoStats.recycleRate || '-'}</StatValue>
+                      <StatValue>{selectedSpot.ecoStats?.temperatureGap || selectedSpot.ecoStats?.recycleRate || '-'}</StatValue>
                     </StatCard>
                   </StatsGrid>
                 )

@@ -119,8 +119,6 @@ const SearchBar = () => {
     }
   }, [isSearchOpen])
 
-  const categories = Object.values(CATEGORIES)
-
   return (
     <SearchBarContainer>
       <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
@@ -170,7 +168,7 @@ const SearchBar = () => {
                 >
                   <span style={{ fontSize: '20px' }}>{category?.emoji || '📍'}</span>
                   <div>
-                    <ResultName>{spot.name}</ResultName>
+                    <ResultName>{spot.displayName || spot.name}</ResultName>
                     <ResultMeta>
                       {spot.district} · {spot.type || category?.label}
                     </ResultMeta>
@@ -187,12 +185,12 @@ const SearchBar = () => {
       )}
 
       <CategoryList>
-        {categories.map((cat) => (
+        {Object.entries(CATEGORIES).map(([key, cat]) => (
           <CategoryChip
-            key={cat.id}
-            $active={activeCategory === cat.id}
+            key={key}
+            $active={activeCategory === key}
             $color={cat.color}
-            onClick={() => setActiveCategory(cat.id)}
+            onClick={() => setActiveCategory(key)}
           >
             <ChipEmoji>{cat.emoji}</ChipEmoji>
             <ChipLabel>{cat.label}</ChipLabel>

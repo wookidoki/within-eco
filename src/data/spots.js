@@ -52,16 +52,102 @@ export const SEASONS = {
   winter: { emoji: '❄️', label: '겨울' },
 }
 
-// district -> region 매핑, 누락 필드 기본값 추가
-export const ecoSpots = rawSpots.map(spot => ({
+// 일반명 목록 (고유명사가 아닌 시설유형명)
+const GENERIC_NAMES = new Set([
+  '문화체육시설', '문화시설', '근린 및 주제공원', '체육시설',
+  '공공시설', '공공휴양녹지', '습지', '완충녹지', '경관녹지',
+  '공공청사', '생태보호구역',
+])
+
+// 일반명을 의미 있는 표시명으로 변환
+function resolveDisplayName(spot) {
+  if (!GENERIC_NAMES.has(spot.name)) return spot.name
+  const district = spot.district || ''
+  if (district) return `${district} ${spot.type || spot.name}`
+  const idNum = spot.id?.split('.').pop() || ''
+  return `${spot.type || spot.name} #${idNum}`
+}
+
+// Haversine 거리 계산 (미터)
+function haversineMeters(lat1, lng1, lat2, lng2) {
+  const R = 6371000
+  const dLat = (lat2 - lat1) * Math.PI / 180
+  const dLng = (lng2 - lng1) * Math.PI / 180
+  const a = Math.sin(dLat / 2) ** 2 +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLng / 2) ** 2
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+}
+
+// Spatial hash 클러스터링: 500m 이내 같은 카테고리 스팟을 하나로 묶음
+function clusterNearbySpots(spots, radiusMeters = 500) {
+  const CELL_LAT = radiusMeters / 111000
+  const CELL_LNG = radiusMeters / (111000 * Math.cos(37.4 * Math.PI / 180))
+
+  // 카테고리+그리드셀 기준으로 분류
+  const grid = new Map()
+  for (const spot of spots) {
+    if (!spot.location?.lat || !spot.location?.lng) continue
+    const cellKey = `${Math.floor(spot.location.lat / CELL_LAT)}_${Math.floor(spot.location.lng / CELL_LNG)}_${spot.category}`
+    if (!grid.has(cellKey)) grid.set(cellKey, [])
+    grid.get(cellKey).push(spot)
+  }
+
+  const result = []
+  const used = new Set()
+
+  for (const [, cellSpots] of grid) {
+    // 점수 높은 순 정렬
+    cellSpots.sort((a, b) => (b.scores?.total || 0) - (a.scores?.total || 0))
+
+    for (const spot of cellSpots) {
+      if (used.has(spot.id)) continue
+
+      const nearby = []
+      for (const other of cellSpots) {
+        if (used.has(other.id) || other.id === spot.id) continue
+        const dist = haversineMeters(
+          spot.location.lat, spot.location.lng,
+          other.location.lat, other.location.lng
+        )
+        if (dist <= radiusMeters) {
+          nearby.push(other)
+          used.add(other.id)
+        }
+      }
+
+      used.add(spot.id)
+      result.push({
+        ...spot,
+        clusterCount: nearby.length,
+        clusterIds: nearby.map(n => n.id),
+      })
+    }
+  }
+
+  return result
+}
+
+// Step 1: 변환 (displayName, ecoScores, ecoStats 매핑)
+const transformedSpots = rawSpots.map(spot => ({
   ...spot,
+  displayName: resolveDisplayName(spot),
   region: spot.region || spot.district || '',
   address: spot.address || '',
   mission: spot.mission || { reward: Math.max(10, Math.round((spot.scores?.total || 30) * 0.8)), description: `${spot.name} 방문하기` },
-  ecoScores: spot.ecoScores || { total_score: spot.scores?.total || 0 },
+  ecoScores: spot.ecoScores || {
+    area: spot.scores?.area || 0,
+    accessibility: spot.scores?.accessibility || 0,
+    uniqueness: spot.scores?.uniqueness || 0,
+    total_score: spot.scores?.total || 0,
+  },
+  ecoStats: spot.ecoStats || { score: spot.scores?.total || 0 },
   thumbnail: spot.thumbnail || CATEGORIES[spot.category]?.emoji || '📍',
   bestSeason: spot.bestSeason || ['ALL'],
 }))
+
+// Step 2: 근접 클러스터링
+export const ecoSpots = clusterNearbySpots(transformedSpots, 500)
 
 export function getCurrentSeason() {
   const month = new Date().getMonth() + 1
